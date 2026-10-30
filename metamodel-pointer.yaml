@@ -1,20 +1,32 @@
 # Metamodel Pointer — Risk
-# Auto-generated from OpenDEAM v0.3.0 (ADR-0003). Do not edit manually.
+#
+# Two consumers, two blocks (see FOUNDATIONS §5):
+#   - the top-level identity keys are consumed by the vendored
+#     regenerate_catalog.py to build CATALOG.yaml's catalog block;
+#   - the `metamodel:` allocation block is validated by
+#     dea-architecture-framework validate-against-model.yml
+#     against the pinned root-model ref (v0.8.0), and asserted
+#     locally by scripts/check_pointer.py.
+#
+# Allocation changes go through the root model, not this file.
+id: dea:catalog-risk-register
+name: Risk
+abbreviation: RSK
+version: 0.1.0
+status: active
+metamodel_version: 1.0.0
+owner: TechNeHub Labs
+description: |
+  A condition or event that threatens the enterprise's ability to persist or to realize a capability/objective.
 metamodel:
-  version: v0.3.0
-  entity_id: dea:entity-risk
-  class_alias: RSK
-  layer: L2
   building_block: L2-risk-compliance
-  viewer_url: "https://technehub-labs.github.io/metamodel/?entity=RSK"
-
-catalog:
-  name: Risk
-  repo: technehub-labs/dea-catalog-risk-register
-  status: proposed
-
+  class_alias: RSK
+  entity_id: dea:entity-risk
+  layer: L2
+  version: v0.8.0
+  viewer_url: https://technehub-labs.github.io/metamodel/?entity=RSK
 links:
   metamodel_repo: https://github.com/technehub-labs/dea-metamodel
   root_model: https://github.com/technehub-labs/dea-architecture-framework
-  viewer: "https://technehub-labs.github.io/metamodel/?entity=RSK"
+  viewer: https://technehub-labs.github.io/metamodel/?entity=RSK
   github: https://github.com/technehub-labs/dea-catalog-risk-register
