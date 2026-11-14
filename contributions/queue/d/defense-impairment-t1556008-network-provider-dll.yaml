@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1556.008
+name: T1556.008 — Network Provider DLL
+description: Adversaries may register malicious network provider dynamic link libraries (DLLs) to capture
+  cleartext user credentials during the authentication process. Network provider DLLs allow Windows to
+  interface with specific network protocols and can also support add-on credential management functions.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1556/ (MITRE ATT&CK enterprise, technique T1556.008)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: defense-impairment-t1556008-network-provider-dll

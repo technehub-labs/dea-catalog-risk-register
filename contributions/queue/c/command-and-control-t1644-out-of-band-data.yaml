@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1644
+name: T1644 — Out of Band Data
+description: Adversaries may communicate with compromised devices using out of band data streams. This
+  could be done for a variety of reasons, including evading network traffic monitoring, as a backup method
+  of command and control, or for data exfiltration if the device is not connected to any Internet-providing
+  networks (i.e.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1644/ (MITRE ATT&CK mobile, technique T1644)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- mobile
+slug: command-and-control-t1644-out-of-band-data

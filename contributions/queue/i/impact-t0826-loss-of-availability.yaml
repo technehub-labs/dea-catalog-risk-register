@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T0826
+name: T0826 — Loss of Availability
+description: Adversaries may attempt to disrupt essential components or systems to prevent owner and operator
+  from delivering products or services. Adversaries may leverage malware to delete or encrypt critical
+  data on HMIs, workstations, or databases.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T0826/ (MITRE ATT&CK ics, technique T0826)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- ics
+slug: impact-t0826-loss-of-availability

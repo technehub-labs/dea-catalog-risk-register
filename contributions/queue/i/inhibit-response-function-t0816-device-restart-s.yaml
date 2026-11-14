@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T0816
+name: T0816 — Device Restart/Shutdown
+description: Adversaries may forcibly restart or shutdown a device in an ICS environment to disrupt and
+  potentially negatively impact physical processes. Methods of device restart and shutdown exist in some
+  devices as built-in, standard functionalities.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T0816/ (MITRE ATT&CK ics, technique T0816)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- ics
+slug: inhibit-response-function-t0816-device-restart-s

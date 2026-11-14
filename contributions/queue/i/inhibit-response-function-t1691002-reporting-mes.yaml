@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1691.002
+name: T1691.002 — Reporting Message
+description: Adversaries may block or prevent a reporting message from reaching its intended target. In
+  control systems, reporting messages contain telemetry data (e.g., I/O values) pertaining to the current
+  state of equipment and the industrial process.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1691/ (MITRE ATT&CK ics, technique T1691.002)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- ics
+slug: inhibit-response-function-t1691002-reporting-mes

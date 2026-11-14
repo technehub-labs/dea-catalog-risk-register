@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1686.002
+name: T1686.002 — Network Device Firewall
+description: Adversaries may disable network device-based firewall mechanisms entirely or add, delete,
+  or modify particular rules in order to bypass controls limiting network usage.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1686/ (MITRE ATT&CK enterprise, technique T1686.002)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: defense-impairment-t1686002-network-device-firew

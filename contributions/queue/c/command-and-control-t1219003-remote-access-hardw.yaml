@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1219.003
+name: T1219.003 — Remote Access Hardware
+description: An adversary may use legitimate remote access hardware to establish an interactive command
+  and control channel to target systems within networks.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1219/ (MITRE ATT&CK enterprise, technique T1219.003)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: command-and-control-t1219003-remote-access-hardw

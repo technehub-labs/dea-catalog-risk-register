@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1648
+name: T1648 — Serverless Execution
+description: Adversaries may abuse serverless computing, integration, and automation services to execute
+  arbitrary code in cloud environments. Many cloud providers offer a variety of serverless resources,
+  including compute engines, application integration services, and web servers.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1648/ (MITRE ATT&CK enterprise, technique T1648)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: execution-t1648-serverless-execution

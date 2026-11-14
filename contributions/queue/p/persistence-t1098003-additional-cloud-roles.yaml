@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1098.003
+name: T1098.003 — Additional Cloud Roles
+description: An adversary may add additional roles or permissions to an adversary-controlled cloud account
+  to maintain persistent access to a tenant. For example, adversaries may update IAM policies in cloud-based
+  environments or add a new global administrator in Office 365 environments.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1098/ (MITRE ATT&CK enterprise, technique T1098.003)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: persistence-t1098003-additional-cloud-roles

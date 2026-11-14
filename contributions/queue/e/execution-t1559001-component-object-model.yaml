@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1559.001
+name: T1559.001 — Component Object Model
+description: Adversaries may use the Windows Component Object Model (COM) for local code execution. COM
+  is an inter-process communication (IPC) component of the native Windows application programming interface
+  (API) that enables interaction between software objects, or executable code that implements one or more
+  interfaces.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1559/ (MITRE ATT&CK enterprise, technique T1559.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: execution-t1559001-component-object-model

@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T0880
+name: T0880 — Loss of Safety
+description: Adversaries may compromise safety system functions designed to maintain safe operation of
+  a process when unacceptable or dangerous conditions occur. Safety systems are often composed of the
+  same elements as control systems but have the sole purpose of ensuring the process fails in a predetermined
+  safe manner.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T0880/ (MITRE ATT&CK ics, technique T0880)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- ics
+slug: impact-t0880-loss-of-safety

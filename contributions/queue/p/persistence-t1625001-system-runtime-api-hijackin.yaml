@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1625.001
+name: T1625.001 — System Runtime API Hijacking
+description: Adversaries may execute their own malicious payloads by hijacking the way an operating system
+  runs applications. Hijacking execution flow can be for the purposes of persistence since this hijacked
+  execution may reoccur at later points in time.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1625/ (MITRE ATT&CK mobile, technique T1625.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- mobile
+slug: persistence-t1625001-system-runtime-api-hijackin

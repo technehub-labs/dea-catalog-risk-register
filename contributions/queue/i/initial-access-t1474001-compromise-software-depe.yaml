@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1474.001
+name: T1474.001 — Compromise Software Dependencies and Development Tools
+description: Adversaries may manipulate products or product delivery mechanisms prior to receipt by a
+  final consumer for the purpose of data or system compromise. Applications often depend on external software
+  to function properly.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1474/ (MITRE ATT&CK mobile, technique T1474.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- mobile
+slug: initial-access-t1474001-compromise-software-depe

@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1422.001
+name: T1422.001 — Internet Connection Discovery
+description: Adversaries may check for Internet connectivity on compromised systems. This may be performed
+  during automated discovery and can be accomplished in numerous ways such as using `adb shell netstat`
+  for Android.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1422/ (MITRE ATT&CK mobile, technique T1422.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- mobile
+slug: discovery-t1422001-internet-connection-discovery

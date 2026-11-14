@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1556.005
+name: T1556.005 — Reversible Encryption
+description: An adversary may abuse Active Directory authentication encryption properties to gain access
+  to credentials on Windows systems. The <code>AllowReversiblePasswordEncryption</code> property specifies
+  whether reversible password encryption for an account is enabled or disabled.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1556/ (MITRE ATT&CK enterprise, technique T1556.005)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: defense-impairment-t1556005-reversible-encryptio

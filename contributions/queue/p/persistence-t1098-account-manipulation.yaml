@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1098
+name: T1098 — Account Manipulation
+description: Adversaries may manipulate accounts to maintain and/or elevate access to victim systems.
+  Account manipulation may consist of any action that preserves or modifies adversary access to a compromised
+  account, such as modifying credentials or permission groups.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1098/ (MITRE ATT&CK enterprise, technique T1098)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: persistence-t1098-account-manipulation

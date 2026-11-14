@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T0892
+name: T0892 — Change Credential
+description: Adversaries may modify software and device credentials to prevent operator and responder
+  access. Depending on the device, the modification or addition of this password could prevent any device
+  configuration actions from being accomplished and may require a factory reset or replacement of hardware.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T0892/ (MITRE ATT&CK ics, technique T0892)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- ics
+slug: inhibit-response-function-t0892-change-credentia

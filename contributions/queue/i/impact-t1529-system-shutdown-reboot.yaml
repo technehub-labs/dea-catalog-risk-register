@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1529
+name: T1529 — System Shutdown/Reboot
+description: Adversaries may shut down/reboot systems to interrupt access to, or aid in the destruction
+  of, those systems. Operating systems may contain commands to initiate a shutdown/reboot of a machine
+  or network device.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1529/ (MITRE ATT&CK enterprise, technique T1529)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: impact-t1529-system-shutdown-reboot

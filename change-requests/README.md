@@ -12,3 +12,4 @@ This index tracks every change request that lands on this repository.
 Series tag `CR-RSK-CAT-NN`, sequential. Cross-repo CRs that touch this
 repository are recorded here with their home-repo identifier.
 | [CR-RSK-CAT-02](CR-RSK-CAT-02-cr-rsk-cat-02.md) | Entity Ingestion Groundwork (candidate intake queue + gates) | **Proposed (this PR)** | Gated intake: queue + blocking queue gate + admission tool (candidate-state subtrees, content-derived ids); pin v2.6.0→v2.8.0 + shard-aware toolchain re-vendor. No records. |
+| [CR-RSK-CAT-03](CR-RSK-CAT-03-cr-rsk-cat-03.md) | Risk Candidate Corpus (MITRE ATT&CK + CISA KEV) | **Landed (this PR)** | 2,716 queue submissions (935 ATT&CK techniques + 1,781 CISA KEV vulnerabilities; published prose + evidence citations + source_refs; manifest with sha256s). Queue gate CONFORMANT; no entities change. |

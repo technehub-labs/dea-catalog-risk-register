@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1418.001
+name: T1418.001 — Security Software Discovery
+description: Adversaries may attempt to get a listing of security applications and configurations that
+  are installed on a device. This may include things such as mobile security products. Adversaries may
+  use the information from [Security Software Discovery](https://attack.mitre.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1418/ (MITRE ATT&CK mobile, technique T1418.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- mobile
+slug: discovery-t1418001-security-software-discovery

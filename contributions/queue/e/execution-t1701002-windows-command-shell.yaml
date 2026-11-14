@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1701.002
+name: T1701.002 — Windows Command Shell
+description: Adversaries may abuse the Windows command shell for execution. The Windows command shell
+  (cmd) is the primary command prompt on Windows systems which is used in industrial control system environments.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1701/ (MITRE ATT&CK ics, technique T1701.002)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- ics
+slug: execution-t1701002-windows-command-shell
