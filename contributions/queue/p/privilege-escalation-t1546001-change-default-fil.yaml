@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1546.001
 name: T1546.001 — Change Default File Association
-description: Adversaries may establish persistence by executing malicious content triggered by a file
-  type association. When a file is opened, the default program used to open the file (also called the
-  file association or handler) is checked.
+description: Adversaries may establish persistence by executing malicious content
+  triggered by a file type association. When a file is opened, the default program
+  used to open the file (also called the file association or handler) is checked.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1546/ (MITRE ATT&CK enterprise, technique T1546.001)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1546/ (MITRE ATT&CK enterprise,
+      technique T1546.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: privilege-escalation-t1546001-change-default-fil
+assigned_id: dea:risk-privilege-escalation-t1546001-change-default-fil-3hef7y
+admitted: '2026-11-14'

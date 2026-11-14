@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1098.004
 name: T1098.004 — SSH Authorized Keys
-description: Adversaries may modify the SSH <code>authorized_keys</code> file to maintain persistence
-  on a victim host. Linux distributions, macOS, and ESXi hypervisors commonly use key-based authentication
-  to secure the authentication process of SSH sessions for remote management.
+description: Adversaries may modify the SSH <code>authorized_keys</code> file to maintain
+  persistence on a victim host. Linux distributions, macOS, and ESXi hypervisors commonly
+  use key-based authentication to secure the authentication process of SSH sessions
+  for remote management.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1098/ (MITRE ATT&CK enterprise, technique T1098.004)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1098/ (MITRE ATT&CK enterprise,
+      technique T1098.004)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: persistence-t1098004-ssh-authorized-keys
+assigned_id: dea:risk-persistence-t1098004-ssh-authorized-keys-3f9s79
+admitted: '2026-11-14'

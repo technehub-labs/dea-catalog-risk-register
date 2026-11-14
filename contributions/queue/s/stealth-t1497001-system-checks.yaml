@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1497.001
 name: T1497.001 — System Checks
-description: Adversaries may employ various system checks to detect and avoid virtualization and analysis
-  environments. This may include changing behaviors based on the results of checks for the presence of
-  artifacts indicative of a virtual machine environment (VME) or sandbox.
+description: Adversaries may employ various system checks to detect and avoid virtualization
+  and analysis environments. This may include changing behaviors based on the results
+  of checks for the presence of artifacts indicative of a virtual machine environment
+  (VME) or sandbox.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1497/ (MITRE ATT&CK enterprise, technique T1497.001)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1497/ (MITRE ATT&CK enterprise,
+      technique T1497.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: stealth-t1497001-system-checks
+assigned_id: dea:risk-stealth-t1497001-system-checks-k5x7aw
+admitted: '2026-11-14'

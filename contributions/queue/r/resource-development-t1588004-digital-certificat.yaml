@@ -1,24 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1588.004
 name: T1588.004 — Digital Certificates
-description: Adversaries may buy and/or steal SSL/TLS certificates that can be used during targeting.
-  SSL/TLS certificates are designed to instill trust. They include information about the key, information
-  about its owner's identity, and the digital signature of an entity that has verified the certificate's
-  contents are correct.
+description: Adversaries may buy and/or steal SSL/TLS certificates that can be used
+  during targeting. SSL/TLS certificates are designed to instill trust. They include
+  information about the key, information about its owner's identity, and the digital
+  signature of an entity that has verified the certificate's contents are correct.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1588/ (MITRE ATT&CK enterprise, technique T1588.004)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1588/ (MITRE ATT&CK enterprise,
+      technique T1588.004)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: resource-development-t1588004-digital-certificat
+assigned_id: dea:risk-resource-development-t1588004-digital-certificat-apxu9v
+admitted: '2026-11-14'

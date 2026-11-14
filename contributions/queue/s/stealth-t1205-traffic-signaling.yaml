@@ -1,24 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1205
 name: T1205 — Traffic Signaling
-description: Adversaries may use traffic signaling to hide open ports or other malicious functionality
-  used for persistence or command and control. Traffic signaling involves the use of a magic value or
-  sequence that must be sent to a system to trigger a special response, such as opening a closed port
-  or executing a malicious task.
+description: Adversaries may use traffic signaling to hide open ports or other malicious
+  functionality used for persistence or command and control. Traffic signaling involves
+  the use of a magic value or sequence that must be sent to a system to trigger a
+  special response, such as opening a closed port or executing a malicious task.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1205/ (MITRE ATT&CK enterprise, technique T1205)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1205/ (MITRE ATT&CK enterprise,
+      technique T1205)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: stealth-t1205-traffic-signaling
+assigned_id: dea:risk-stealth-t1205-traffic-signaling-jxjyc9
+admitted: '2026-11-14'

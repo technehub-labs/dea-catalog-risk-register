@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1070.008
 name: T1070.008 — Clear Mailbox Data
-description: Adversaries may modify mail and mail application data to remove evidence of their activity.
-  Email applications allow users and other programs to export and delete mailbox data via command line
-  tools or use of APIs.
+description: Adversaries may modify mail and mail application data to remove evidence
+  of their activity. Email applications allow users and other programs to export and
+  delete mailbox data via command line tools or use of APIs.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1070/ (MITRE ATT&CK enterprise, technique T1070.008)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1070/ (MITRE ATT&CK enterprise,
+      technique T1070.008)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: stealth-t1070008-clear-mailbox-data
+assigned_id: dea:risk-stealth-t1070008-clear-mailbox-data-4c76bh
+admitted: '2026-11-14'

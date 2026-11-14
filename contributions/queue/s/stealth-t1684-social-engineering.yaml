@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1684
 name: T1684 — Social Engineering
-description: Adversaries may use social engineering techniques to influence users to take actions that
-  result in unauthorized access, approval of changes, disclosure of sensitive information, or execution
-  of adversary-supplied instructions (i.e.
+description: Adversaries may use social engineering techniques to influence users
+  to take actions that result in unauthorized access, approval of changes, disclosure
+  of sensitive information, or execution of adversary-supplied instructions (i.e.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1684/ (MITRE ATT&CK enterprise, technique T1684)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1684/ (MITRE ATT&CK enterprise,
+      technique T1684)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: stealth-t1684-social-engineering
+assigned_id: dea:risk-stealth-t1684-social-engineering-h7wwcw
+admitted: '2026-11-14'

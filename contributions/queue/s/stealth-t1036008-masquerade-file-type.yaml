@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1036.008
 name: T1036.008 — Masquerade File Type
-description: Adversaries may masquerade malicious payloads as legitimate files through changes to the
-  payload's formatting, including the file’s signature, extension, icon, and contents. Various file types
-  have a typical standard format, including how they are encoded and organized.
+description: Adversaries may masquerade malicious payloads as legitimate files through
+  changes to the payload's formatting, including the file’s signature, extension,
+  icon, and contents. Various file types have a typical standard format, including
+  how they are encoded and organized.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1036/ (MITRE ATT&CK enterprise, technique T1036.008)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1036/ (MITRE ATT&CK enterprise,
+      technique T1036.008)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: stealth-t1036008-masquerade-file-type
+assigned_id: dea:risk-stealth-t1036008-masquerade-file-type-efg8ce
+admitted: '2026-11-14'

@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1650
 name: T1650 — Acquire Access
-description: Adversaries may purchase or otherwise acquire an existing access to a target system or network.
-  A variety of online services and initial access broker networks are available to sell access to previously
-  compromised systems.
+description: Adversaries may purchase or otherwise acquire an existing access to a
+  target system or network. A variety of online services and initial access broker
+  networks are available to sell access to previously compromised systems.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1650/ (MITRE ATT&CK enterprise, technique T1650)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1650/ (MITRE ATT&CK enterprise,
+      technique T1650)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: resource-development-t1650-acquire-access
+assigned_id: dea:risk-resource-development-t1650-acquire-access-22pu6m
+admitted: '2026-11-14'

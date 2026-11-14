@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1027
 name: T1027 — Obfuscated Files or Information
-description: Adversaries may attempt to make an executable or file difficult to discover or analyze by
-  encrypting, encoding, or otherwise obfuscating its contents on the system or in transit. This is common
-  behavior that can be used across different platforms and the network to evade defenses.
+description: Adversaries may attempt to make an executable or file difficult to discover
+  or analyze by encrypting, encoding, or otherwise obfuscating its contents on the
+  system or in transit. This is common behavior that can be used across different
+  platforms and the network to evade defenses.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1027/ (MITRE ATT&CK enterprise, technique T1027)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1027/ (MITRE ATT&CK enterprise,
+      technique T1027)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: stealth-t1027-obfuscated-files-or-information
+assigned_id: dea:risk-stealth-t1027-obfuscated-files-or-information-mgwr9n
+admitted: '2026-11-14'

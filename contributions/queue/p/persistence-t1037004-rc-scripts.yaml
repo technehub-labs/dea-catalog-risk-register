@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1037.004
 name: T1037.004 — RC Scripts
-description: Adversaries may establish persistence by modifying RC scripts, which are executed during
-  a Unix-like system’s startup. These files allow system administrators to map and start custom services
-  at startup for different run levels. RC scripts require root privileges to modify.
+description: Adversaries may establish persistence by modifying RC scripts, which
+  are executed during a Unix-like system’s startup. These files allow system administrators
+  to map and start custom services at startup for different run levels. RC scripts
+  require root privileges to modify.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1037/ (MITRE ATT&CK enterprise, technique T1037.004)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1037/ (MITRE ATT&CK enterprise,
+      technique T1037.004)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: persistence-t1037004-rc-scripts
+assigned_id: dea:risk-persistence-t1037004-rc-scripts-hyc84d
+admitted: '2026-11-14'

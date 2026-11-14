@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1547
 name: T1547 — Boot or Logon Autostart Execution
-description: Adversaries may configure system settings to automatically execute a program during system
-  boot or logon to maintain persistence or gain higher-level privileges on compromised systems. Operating
-  systems may have mechanisms for automatically running a program on system boot or account logon.
+description: Adversaries may configure system settings to automatically execute a
+  program during system boot or logon to maintain persistence or gain higher-level
+  privileges on compromised systems. Operating systems may have mechanisms for automatically
+  running a program on system boot or account logon.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1547/ (MITRE ATT&CK enterprise, technique T1547)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1547/ (MITRE ATT&CK enterprise,
+      technique T1547)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: persistence-t1547-boot-or-logon-autostart-execut
+assigned_id: dea:risk-persistence-t1547-boot-or-logon-autostart-execut-ez7tb9
+admitted: '2026-11-14'
