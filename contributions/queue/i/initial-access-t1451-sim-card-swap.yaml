@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1451
 name: T1451 — SIM Card Swap
-description: 'Adversaries may gain access to mobile devices through transfers or swaps from victims’ phone
-  numbers to adversary-controlled SIM cards and mobile devices. The typical process is as follows: 1.
-  Adversaries will first gather information about victims through [Phishing](https://attack.mitre.'
+description: 'Adversaries may gain access to mobile devices through transfers or swaps
+  from victims’ phone numbers to adversary-controlled SIM cards and mobile devices.
+  The typical process is as follows: 1. Adversaries will first gather information
+  about victims through [Phishing](https://attack.mitre.'
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1451/ (MITRE ATT&CK mobile, technique T1451)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1451/ (MITRE ATT&CK mobile, technique
+      T1451)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - mobile
 slug: initial-access-t1451-sim-card-swap
+assigned_id: dea:risk-initial-access-t1451-sim-card-swap-mzhjxq
+admitted: '2026-11-14'

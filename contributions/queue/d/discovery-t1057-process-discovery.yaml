@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1057
 name: T1057 — Process Discovery
-description: Adversaries may attempt to get information about running processes on a system. Information
-  obtained could be used to gain an understanding of common software/applications running on systems within
-  the network. Administrator or otherwise elevated access may provide better process details.
+description: Adversaries may attempt to get information about running processes on
+  a system. Information obtained could be used to gain an understanding of common
+  software/applications running on systems within the network. Administrator or otherwise
+  elevated access may provide better process details.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1057/ (MITRE ATT&CK enterprise, technique T1057)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1057/ (MITRE ATT&CK enterprise,
+      technique T1057)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: discovery-t1057-process-discovery
+assigned_id: dea:risk-discovery-t1057-process-discovery-pxhcvf
+admitted: '2026-11-14'

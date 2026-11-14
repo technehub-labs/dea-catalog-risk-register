@@ -1,24 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1114.001
 name: T1114.001 — Local Email Collection
-description: Adversaries may target user email on local systems to collect sensitive information. Files
-  containing email data can be acquired from a user’s local system, such as Outlook storage or cache files.
-  Outlook stores data locally in offline data files with an extension of .ost. Outlook 2010 and later
-  supports .
+description: Adversaries may target user email on local systems to collect sensitive
+  information. Files containing email data can be acquired from a user’s local system,
+  such as Outlook storage or cache files. Outlook stores data locally in offline data
+  files with an extension of .ost. Outlook 2010 and later supports .
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1114/ (MITRE ATT&CK enterprise, technique T1114.001)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1114/ (MITRE ATT&CK enterprise,
+      technique T1114.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: collection-t1114001-local-email-collection
+assigned_id: dea:risk-collection-t1114001-local-email-collection-p2j5yn
+admitted: '2026-11-14'

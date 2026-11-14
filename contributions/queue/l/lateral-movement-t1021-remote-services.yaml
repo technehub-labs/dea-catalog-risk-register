@@ -1,24 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1021
 name: T1021 — Remote Services
-description: Adversaries may use [Valid Accounts](https://attack.mitre.org/techniques/T1078) to log into
-  a service that accepts remote connections, such as telnet, SSH, and VNC. The adversary may then perform
-  actions as the logged-on user. In an enterprise environment, servers and workstations can be organized
-  into domains.
+description: Adversaries may use [Valid Accounts](https://attack.mitre.org/techniques/T1078)
+  to log into a service that accepts remote connections, such as telnet, SSH, and
+  VNC. The adversary may then perform actions as the logged-on user. In an enterprise
+  environment, servers and workstations can be organized into domains.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1021/ (MITRE ATT&CK enterprise, technique T1021)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1021/ (MITRE ATT&CK enterprise,
+      technique T1021)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: lateral-movement-t1021-remote-services
+assigned_id: dea:risk-lateral-movement-t1021-remote-services-t92y5c
+admitted: '2026-11-14'

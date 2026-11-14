@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T0828
 name: T0828 — Loss of Productivity and Revenue
-description: Adversaries may cause loss of productivity and revenue through disruption and even damage
-  to the availability and integrity of control system operations, devices, and related processes.
+description: Adversaries may cause loss of productivity and revenue through disruption
+  and even damage to the availability and integrity of control system operations,
+  devices, and related processes.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T0828/ (MITRE ATT&CK ics, technique T0828)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T0828/ (MITRE ATT&CK ics, technique
+      T0828)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - ics
 slug: impact-t0828-loss-of-productivity-and-revenue
+assigned_id: dea:risk-impact-t0828-loss-of-productivity-and-revenue-mnp6fw
+admitted: '2026-11-14'

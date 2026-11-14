@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1647
 name: T1647 — Plist File Modification
-description: Adversaries may modify property list files (plist files) to enable other malicious activity,
-  while also potentially evading and bypassing system defenses. macOS applications use plist files, such
-  as the <code>info.
+description: Adversaries may modify property list files (plist files) to enable other
+  malicious activity, while also potentially evading and bypassing system defenses.
+  macOS applications use plist files, such as the <code>info.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1647/ (MITRE ATT&CK enterprise, technique T1647)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1647/ (MITRE ATT&CK enterprise,
+      technique T1647)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: defense-impairment-t1647-plist-file-modification
+assigned_id: dea:risk-defense-impairment-t1647-plist-file-modification-byzztw
+admitted: '2026-11-14'

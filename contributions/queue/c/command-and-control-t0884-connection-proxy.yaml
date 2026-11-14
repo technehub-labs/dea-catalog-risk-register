@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T0884
 name: T0884 — Connection Proxy
-description: Adversaries may use a connection proxy to direct network traffic between systems or act as
-  an intermediary for network communications.
+description: Adversaries may use a connection proxy to direct network traffic between
+  systems or act as an intermediary for network communications.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T0884/ (MITRE ATT&CK ics, technique T0884)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T0884/ (MITRE ATT&CK ics, technique
+      T0884)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - ics
 slug: command-and-control-t0884-connection-proxy
+assigned_id: dea:risk-command-and-control-t0884-connection-proxy-4xqrtj
+admitted: '2026-11-14'

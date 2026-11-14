@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1189
 name: T1189 — Drive-by Compromise
-description: Adversaries may gain access to a system through a user visiting a website over the normal
-  course of browsing. Multiple ways of delivering exploit code to a browser exist (i.e., [Drive-by Target](https://attack.mitre.
+description: Adversaries may gain access to a system through a user visiting a website
+  over the normal course of browsing. Multiple ways of delivering exploit code to
+  a browser exist (i.e., [Drive-by Target](https://attack.mitre.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1189/ (MITRE ATT&CK enterprise, technique T1189)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1189/ (MITRE ATT&CK enterprise,
+      technique T1189)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: initial-access-t1189-drive-by-compromise
+assigned_id: dea:risk-initial-access-t1189-drive-by-compromise-sb7c5t
+admitted: '2026-11-14'

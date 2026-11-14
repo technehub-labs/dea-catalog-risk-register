@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1701.006
 name: T1701.006 — JavaScript
-description: Adversaries may abuse various implementations of JavaScript for execution. JavaScript is
-  a platform-independent scripting language (compiled just-in-time at runtime) commonly associated with
-  scripts in webpages, though JavaScript can be executed in runtime environments outside the browser.
+description: Adversaries may abuse various implementations of JavaScript for execution.
+  JavaScript is a platform-independent scripting language (compiled just-in-time at
+  runtime) commonly associated with scripts in webpages, though JavaScript can be
+  executed in runtime environments outside the browser.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1701/ (MITRE ATT&CK ics, technique T1701.006)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1701/ (MITRE ATT&CK ics, technique
+      T1701.006)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - ics
 slug: execution-t1701006-javascript
+assigned_id: dea:risk-execution-t1701006-javascript-m5y283
+admitted: '2026-11-14'

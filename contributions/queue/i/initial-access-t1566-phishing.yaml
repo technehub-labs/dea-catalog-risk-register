@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1566
 name: T1566 — Phishing
-description: Adversaries may send phishing messages to gain access to victim systems. All forms of phishing
-  are electronically delivered social engineering. Phishing can be targeted, known as spearphishing. In
-  spearphishing, a specific individual, company, or industry will be targeted by the adversary.
+description: Adversaries may send phishing messages to gain access to victim systems.
+  All forms of phishing are electronically delivered social engineering. Phishing
+  can be targeted, known as spearphishing. In spearphishing, a specific individual,
+  company, or industry will be targeted by the adversary.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1566/ (MITRE ATT&CK enterprise, technique T1566)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1566/ (MITRE ATT&CK enterprise,
+      technique T1566)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: initial-access-t1566-phishing
+assigned_id: dea:risk-initial-access-t1566-phishing-d3r2cv
+admitted: '2026-11-14'

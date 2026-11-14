@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T0879
 name: T0879 — Damage to Property
-description: Adversaries may cause damage and destruction of property to infrastructure, equipment, and
-  the surrounding environment when attacking control systems. This technique may result in device and
-  operational equipment breakdown, or represent tangential damage from other techniques used in an attack.
+description: Adversaries may cause damage and destruction of property to infrastructure,
+  equipment, and the surrounding environment when attacking control systems. This
+  technique may result in device and operational equipment breakdown, or represent
+  tangential damage from other techniques used in an attack.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T0879/ (MITRE ATT&CK ics, technique T0879)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T0879/ (MITRE ATT&CK ics, technique
+      T0879)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - ics
 slug: impact-t0879-damage-to-property
+assigned_id: dea:risk-impact-t0879-damage-to-property-32kkgk
+admitted: '2026-11-14'

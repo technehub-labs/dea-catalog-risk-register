@@ -1,0 +1,38 @@
+id: dea:risk-execution-t1677-poisoned-pipeline-execution-sdfzr6
+type: Risk
+name: T1677 — Poisoned Pipeline Execution
+description: 'Adversaries may manipulate continuous integration / continuous development
+  (CI/CD) processes by injecting malicious code into the build process. There are
+  several mechanisms for poisoning pipelines: * In a <b>Direct Pipeline Execution</b>
+  scenario, the threat actor directly modifies the CI configuration file (e.g.'
+version: 0.1.0
+lifecycle_status: proposed
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1677/ (MITRE ATT&CK enterprise,
+      technique T1677)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- mitre-attack
+- enterprise

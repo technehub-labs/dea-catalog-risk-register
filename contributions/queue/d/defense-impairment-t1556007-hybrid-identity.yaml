@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1556.007
 name: T1556.007 — Hybrid Identity
-description: Adversaries may patch, modify, or otherwise backdoor cloud authentication processes that
-  are tied to on-premises user identities in order to bypass typical authentication mechanisms, access
-  credentials, and enable persistent access to accounts.
+description: Adversaries may patch, modify, or otherwise backdoor cloud authentication
+  processes that are tied to on-premises user identities in order to bypass typical
+  authentication mechanisms, access credentials, and enable persistent access to accounts.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1556/ (MITRE ATT&CK enterprise, technique T1556.007)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1556/ (MITRE ATT&CK enterprise,
+      technique T1556.007)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: defense-impairment-t1556007-hybrid-identity
+assigned_id: dea:risk-defense-impairment-t1556007-hybrid-identity-6t46h6
+admitted: '2026-11-14'

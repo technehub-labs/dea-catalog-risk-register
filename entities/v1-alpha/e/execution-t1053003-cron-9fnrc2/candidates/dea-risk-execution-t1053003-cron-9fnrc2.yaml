@@ -1,0 +1,37 @@
+id: dea:risk-execution-t1053003-cron-9fnrc2
+type: Risk
+name: T1053.003 — Cron
+description: Adversaries may abuse the <code>cron</code> utility to perform task scheduling
+  for initial or recurring execution of malicious code. The <code>cron</code> utility
+  is a time-based job scheduler for Unix-like operating systems.
+version: 0.1.0
+lifecycle_status: proposed
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1053/ (MITRE ATT&CK enterprise,
+      technique T1053.003)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- mitre-attack
+- enterprise

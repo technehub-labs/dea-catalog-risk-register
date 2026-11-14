@@ -1,0 +1,37 @@
+id: dea:risk-inhibit-response-function-t1691002-reporting-mes-87akqu
+type: Risk
+name: T1691.002 — Reporting Message
+description: Adversaries may block or prevent a reporting message from reaching its
+  intended target. In control systems, reporting messages contain telemetry data (e.g.,
+  I/O values) pertaining to the current state of equipment and the industrial process.
+version: 0.1.0
+lifecycle_status: proposed
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1691/ (MITRE ATT&CK ics, technique
+      T1691.002)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- mitre-attack
+- ics

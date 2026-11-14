@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1630.002
 name: T1630.002 — File Deletion
-description: Adversaries may wipe a device or delete individual files in order to manipulate external
-  outcomes or hide activity. An application must have administrator access to fully wipe the device, while
-  individual files may not require special permissions to delete depending on their storage location.
+description: Adversaries may wipe a device or delete individual files in order to
+  manipulate external outcomes or hide activity. An application must have administrator
+  access to fully wipe the device, while individual files may not require special
+  permissions to delete depending on their storage location.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1630/ (MITRE ATT&CK mobile, technique T1630.002)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1630/ (MITRE ATT&CK mobile, technique
+      T1630.002)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - mobile
 slug: defense-evasion-t1630002-file-deletion
+assigned_id: dea:risk-defense-evasion-t1630002-file-deletion-nu8s9m
+admitted: '2026-11-14'

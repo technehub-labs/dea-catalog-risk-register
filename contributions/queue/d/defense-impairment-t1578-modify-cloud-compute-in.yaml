@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1578
 name: T1578 — Modify Cloud Compute Infrastructure
-description: An adversary may attempt to modify a cloud account's compute service infrastructure to evade
-  defenses. A modification to the compute service infrastructure can include the creation, deletion, or
-  modification of one or more components such as compute instances, virtual machines, and snapshots.
+description: An adversary may attempt to modify a cloud account's compute service
+  infrastructure to evade defenses. A modification to the compute service infrastructure
+  can include the creation, deletion, or modification of one or more components such
+  as compute instances, virtual machines, and snapshots.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1578/ (MITRE ATT&CK enterprise, technique T1578)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1578/ (MITRE ATT&CK enterprise,
+      technique T1578)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: defense-impairment-t1578-modify-cloud-compute-in
+assigned_id: dea:risk-defense-impairment-t1578-modify-cloud-compute-in-ujc23v
+admitted: '2026-11-14'

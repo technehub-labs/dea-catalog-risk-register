@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1417.001
 name: T1417.001 — Keylogging
-description: 'Adversaries may log user keystrokes to intercept credentials or other information from the
-  user as the user types them. Some methods of keylogging include: * Masquerading as a legitimate third-party
-  keyboard to record user keystrokes.'
+description: 'Adversaries may log user keystrokes to intercept credentials or other
+  information from the user as the user types them. Some methods of keylogging include:
+  * Masquerading as a legitimate third-party keyboard to record user keystrokes.'
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1417/ (MITRE ATT&CK mobile, technique T1417.001)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1417/ (MITRE ATT&CK mobile, technique
+      T1417.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - mobile
 slug: collection-t1417001-keylogging
+assigned_id: dea:risk-collection-t1417001-keylogging-dfaycq
+admitted: '2026-11-14'

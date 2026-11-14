@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1496.003
 name: T1496.003 — SMS Pumping
-description: Adversaries may leverage messaging services for SMS pumping, which may impact system and/or
-  hosted service availability.
+description: Adversaries may leverage messaging services for SMS pumping, which may
+  impact system and/or hosted service availability.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1496/ (MITRE ATT&CK enterprise, technique T1496.003)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1496/ (MITRE ATT&CK enterprise,
+      technique T1496.003)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: impact-t1496003-sms-pumping
+assigned_id: dea:risk-impact-t1496003-sms-pumping-kugxba
+admitted: '2026-11-14'

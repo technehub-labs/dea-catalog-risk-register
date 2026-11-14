@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T0838
 name: T0838 — Modify Alarm Settings
-description: Adversaries may modify alarm settings to prevent alerts that may inform operators of their
-  presence or to prevent responses to dangerous and unintended scenarios. Reporting messages are a standard
-  part of data acquisition in control systems.
+description: Adversaries may modify alarm settings to prevent alerts that may inform
+  operators of their presence or to prevent responses to dangerous and unintended
+  scenarios. Reporting messages are a standard part of data acquisition in control
+  systems.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T0838/ (MITRE ATT&CK ics, technique T0838)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T0838/ (MITRE ATT&CK ics, technique
+      T0838)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - ics
 slug: inhibit-response-function-t0838-modify-alarm-set
+assigned_id: dea:risk-inhibit-response-function-t0838-modify-alarm-set-uueyet
+admitted: '2026-11-14'

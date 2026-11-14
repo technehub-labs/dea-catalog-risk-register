@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1422
 name: T1422 — System Network Configuration Discovery
-description: Adversaries may look for details about the network configuration and settings, such as IP
-  and/or MAC addresses, of devices they access or through information discovery of remote systems. Adversaries
-  may use the information from [System Network Configuration Discovery](https://attack.mitre.
+description: Adversaries may look for details about the network configuration and
+  settings, such as IP and/or MAC addresses, of devices they access or through information
+  discovery of remote systems. Adversaries may use the information from [System Network
+  Configuration Discovery](https://attack.mitre.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1422/ (MITRE ATT&CK mobile, technique T1422)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1422/ (MITRE ATT&CK mobile, technique
+      T1422)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - mobile
 slug: discovery-t1422-system-network-configuration-dis
+assigned_id: dea:risk-discovery-t1422-system-network-configuration-dis-b9sepd
+admitted: '2026-11-14'

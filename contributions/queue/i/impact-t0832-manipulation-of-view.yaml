@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T0832
 name: T0832 — Manipulation of View
-description: Adversaries may attempt to manipulate the information reported back to operators or controllers.
-  This manipulation may be short term or sustained. During this time the process itself could be in a
-  much different state than what is reported.
+description: Adversaries may attempt to manipulate the information reported back to
+  operators or controllers. This manipulation may be short term or sustained. During
+  this time the process itself could be in a much different state than what is reported.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T0832/ (MITRE ATT&CK ics, technique T0832)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T0832/ (MITRE ATT&CK ics, technique
+      T0832)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - ics
 slug: impact-t0832-manipulation-of-view
+assigned_id: dea:risk-impact-t0832-manipulation-of-view-uk4v2n
+admitted: '2026-11-14'

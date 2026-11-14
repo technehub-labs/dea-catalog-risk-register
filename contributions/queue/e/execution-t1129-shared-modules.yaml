@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1129
 name: T1129 — Shared Modules
-description: Adversaries may execute malicious payloads via loading shared modules. Shared modules are
-  executable files that are loaded into processes to provide access to reusable code, such as specific
-  custom functions or invoking OS API functions (i.e., [Native API](https://attack.mitre.org/techniques/T1106)).
+description: Adversaries may execute malicious payloads via loading shared modules.
+  Shared modules are executable files that are loaded into processes to provide access
+  to reusable code, such as specific custom functions or invoking OS API functions
+  (i.e., [Native API](https://attack.mitre.org/techniques/T1106)).
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1129/ (MITRE ATT&CK enterprise, technique T1129)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1129/ (MITRE ATT&CK enterprise,
+      technique T1129)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: execution-t1129-shared-modules
+assigned_id: dea:risk-execution-t1129-shared-modules-7bnt4m
+admitted: '2026-11-14'

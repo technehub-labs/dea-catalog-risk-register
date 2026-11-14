@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1692.002
 name: T1692.002 — Reporting Message
-description: Adversaries may spoof reporting messages in control system environments for evasion and to
-  impair process control. In control systems, reporting messages contain telemetry data (e.g., I/O values)
-  pertaining to the current state of equipment and the industrial process.
+description: Adversaries may spoof reporting messages in control system environments
+  for evasion and to impair process control. In control systems, reporting messages
+  contain telemetry data (e.g., I/O values) pertaining to the current state of equipment
+  and the industrial process.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1692/ (MITRE ATT&CK ics, technique T1692.002)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1692/ (MITRE ATT&CK ics, technique
+      T1692.002)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - ics
 slug: evasion-t1692002-reporting-message
+assigned_id: dea:risk-evasion-t1692002-reporting-message-bdaqaw
+admitted: '2026-11-14'

@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1105
 name: T1105 — Ingress Tool Transfer
-description: Adversaries may transfer tools or other files from an external system into a compromised
-  environment. Tools or files may be copied from an external adversary-controlled system to the victim
-  network through the command and control channel or through alternate protocols such as [ftp](https://attack.mitre.
+description: Adversaries may transfer tools or other files from an external system
+  into a compromised environment. Tools or files may be copied from an external adversary-controlled
+  system to the victim network through the command and control channel or through
+  alternate protocols such as [ftp](https://attack.mitre.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1105/ (MITRE ATT&CK enterprise, technique T1105)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1105/ (MITRE ATT&CK enterprise,
+      technique T1105)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: command-and-control-t1105-ingress-tool-transfer
+assigned_id: dea:risk-command-and-control-t1105-ingress-tool-transfer-8v3qhq
+admitted: '2026-11-14'

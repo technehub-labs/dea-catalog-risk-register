@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1563.002
 name: T1563.002 — RDP Hijacking
-description: Adversaries may hijack a legitimate user’s remote desktop session to move laterally within
-  an environment. Remote desktop is a common feature in operating systems. It allows a user to log into
-  an interactive session with a system desktop graphical user interface on a remote system.
+description: Adversaries may hijack a legitimate user’s remote desktop session to
+  move laterally within an environment. Remote desktop is a common feature in operating
+  systems. It allows a user to log into an interactive session with a system desktop
+  graphical user interface on a remote system.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1563/ (MITRE ATT&CK enterprise, technique T1563.002)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1563/ (MITRE ATT&CK enterprise,
+      technique T1563.002)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: lateral-movement-t1563002-rdp-hijacking
+assigned_id: dea:risk-lateral-movement-t1563002-rdp-hijacking-n243ca
+admitted: '2026-11-14'

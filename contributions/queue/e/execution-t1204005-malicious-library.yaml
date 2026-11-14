@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1204.005
 name: T1204.005 — Malicious Library
-description: Adversaries may rely on a user installing a malicious library to facilitate execution. Threat
-  actors may [Upload Malware](https://attack.mitre.org/techniques/T1608/001) to package managers such
-  as NPM and PyPi, as well as to public code repositories such as GitHub.
+description: Adversaries may rely on a user installing a malicious library to facilitate
+  execution. Threat actors may [Upload Malware](https://attack.mitre.org/techniques/T1608/001)
+  to package managers such as NPM and PyPi, as well as to public code repositories
+  such as GitHub.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1204/ (MITRE ATT&CK enterprise, technique T1204.005)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1204/ (MITRE ATT&CK enterprise,
+      technique T1204.005)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: execution-t1204005-malicious-library
+assigned_id: dea:risk-execution-t1204005-malicious-library-va7vh6
+admitted: '2026-11-14'

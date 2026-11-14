@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1537
 name: T1537 — Transfer Data to Cloud Account
-description: Adversaries may exfiltrate data by transferring the data, including through sharing/syncing
-  and creating backups of cloud environments, to another cloud account they control on the same service.
+description: Adversaries may exfiltrate data by transferring the data, including through
+  sharing/syncing and creating backups of cloud environments, to another cloud account
+  they control on the same service.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1537/ (MITRE ATT&CK enterprise, technique T1537)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1537/ (MITRE ATT&CK enterprise,
+      technique T1537)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: exfiltration-t1537-transfer-data-to-cloud-accoun
+assigned_id: dea:risk-exfiltration-t1537-transfer-data-to-cloud-accoun-2d8488
+admitted: '2026-11-14'

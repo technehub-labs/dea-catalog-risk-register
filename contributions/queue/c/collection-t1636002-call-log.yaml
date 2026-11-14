@@ -1,24 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1636.002
 name: T1636.002 — Call Log
-description: Adversaries may utilize standard operating system APIs to gather call log data. On Android,
-  this can be accomplished using the Call Log Content Provider. iOS provides no standard API to access
-  the call log. If the device has been jailbroken or rooted, an adversary may be able to access the [Call
-  Log](https://attack.
+description: Adversaries may utilize standard operating system APIs to gather call
+  log data. On Android, this can be accomplished using the Call Log Content Provider.
+  iOS provides no standard API to access the call log. If the device has been jailbroken
+  or rooted, an adversary may be able to access the [Call Log](https://attack.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1636/ (MITRE ATT&CK mobile, technique T1636.002)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1636/ (MITRE ATT&CK mobile, technique
+      T1636.002)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - mobile
 slug: collection-t1636002-call-log
+assigned_id: dea:risk-collection-t1636002-call-log-676j53
+admitted: '2026-11-14'

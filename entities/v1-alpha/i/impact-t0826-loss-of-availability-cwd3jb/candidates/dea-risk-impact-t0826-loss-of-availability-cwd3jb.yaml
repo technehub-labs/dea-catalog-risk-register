@@ -1,0 +1,37 @@
+id: dea:risk-impact-t0826-loss-of-availability-cwd3jb
+type: Risk
+name: T0826 — Loss of Availability
+description: Adversaries may attempt to disrupt essential components or systems to
+  prevent owner and operator from delivering products or services. Adversaries may
+  leverage malware to delete or encrypt critical data on HMIs, workstations, or databases.
+version: 0.1.0
+lifecycle_status: proposed
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T0826/ (MITRE ATT&CK ics, technique
+      T0826)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- mitre-attack
+- ics

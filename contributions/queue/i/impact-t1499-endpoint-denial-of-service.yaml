@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1499
 name: T1499 — Endpoint Denial of Service
-description: Adversaries may perform Endpoint Denial of Service (DoS) attacks to degrade or block the
-  availability of services to users. Endpoint DoS can be performed by exhausting the system resources
-  those services are hosted on or exploiting the system to cause a persistent crash condition.
+description: Adversaries may perform Endpoint Denial of Service (DoS) attacks to degrade
+  or block the availability of services to users. Endpoint DoS can be performed by
+  exhausting the system resources those services are hosted on or exploiting the system
+  to cause a persistent crash condition.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1499/ (MITRE ATT&CK enterprise, technique T1499)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1499/ (MITRE ATT&CK enterprise,
+      technique T1499)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: impact-t1499-endpoint-denial-of-service
+assigned_id: dea:risk-impact-t1499-endpoint-denial-of-service-nk3qhp
+admitted: '2026-11-14'

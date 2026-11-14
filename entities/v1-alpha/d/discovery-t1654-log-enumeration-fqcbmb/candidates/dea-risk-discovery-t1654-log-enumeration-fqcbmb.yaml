@@ -1,0 +1,38 @@
+id: dea:risk-discovery-t1654-log-enumeration-fqcbmb
+type: Risk
+name: T1654 — Log Enumeration
+description: Adversaries may enumerate system and service logs to find useful data.
+  These logs may highlight various types of valuable insights for an adversary, such
+  as user authentication records ([Account Discovery](https://attack.mitre.org/techniques/T1087)),
+  security or vulnerable software ([Software Discovery](https://attack.
+version: 0.1.0
+lifecycle_status: proposed
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1654/ (MITRE ATT&CK enterprise,
+      technique T1654)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- mitre-attack
+- enterprise

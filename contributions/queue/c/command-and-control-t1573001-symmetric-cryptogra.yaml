@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1573.001
 name: T1573.001 — Symmetric Cryptography
-description: Adversaries may employ a known symmetric encryption algorithm to conceal command and control
-  traffic rather than relying on any inherent protections provided by a communication protocol. Symmetric
-  encryption algorithms use the same key for plaintext encryption and ciphertext decryption.
+description: Adversaries may employ a known symmetric encryption algorithm to conceal
+  command and control traffic rather than relying on any inherent protections provided
+  by a communication protocol. Symmetric encryption algorithms use the same key for
+  plaintext encryption and ciphertext decryption.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1573/ (MITRE ATT&CK enterprise, technique T1573.001)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1573/ (MITRE ATT&CK enterprise,
+      technique T1573.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: command-and-control-t1573001-symmetric-cryptogra
+assigned_id: dea:risk-command-and-control-t1573001-symmetric-cryptogra-ynmr6w
+admitted: '2026-11-14'

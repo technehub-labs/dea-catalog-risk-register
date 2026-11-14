@@ -1,0 +1,38 @@
+id: dea:risk-command-and-control-t1132002-non-standard-encodi-qxsexa
+type: Risk
+name: T1132.002 — Non-Standard Encoding
+description: Adversaries may encode data with a non-standard data encoding system
+  to make the content of command and control traffic more difficult to detect. Command
+  and control (C2) information can be encoded using a non-standard data encoding system
+  that diverges from existing protocol specifications.
+version: 0.1.0
+lifecycle_status: proposed
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1132/ (MITRE ATT&CK enterprise,
+      technique T1132.002)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- mitre-attack
+- enterprise
