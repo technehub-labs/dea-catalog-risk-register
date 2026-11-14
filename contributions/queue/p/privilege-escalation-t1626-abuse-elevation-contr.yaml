@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1626
 name: T1626 — Abuse Elevation Control Mechanism
-description: Adversaries may circumvent mechanisms designed to control elevated privileges to gain higher-level
-  permissions. Most modern systems contain native elevation control mechanisms that are intended to limit
-  privileges that a user can gain on a machine.
+description: Adversaries may circumvent mechanisms designed to control elevated privileges
+  to gain higher-level permissions. Most modern systems contain native elevation control
+  mechanisms that are intended to limit privileges that a user can gain on a machine.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1626/ (MITRE ATT&CK mobile, technique T1626)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1626/ (MITRE ATT&CK mobile, technique
+      T1626)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - mobile
 slug: privilege-escalation-t1626-abuse-elevation-contr
+assigned_id: dea:risk-privilege-escalation-t1626-abuse-elevation-contr-748uew
+admitted: '2026-11-14'

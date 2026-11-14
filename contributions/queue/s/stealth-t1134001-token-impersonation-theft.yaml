@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1134.001
 name: T1134.001 — Token Impersonation/Theft
-description: Adversaries may duplicate then impersonate another user's existing token to escalate privileges
-  and bypass access controls. For example, an adversary can duplicate an existing token using `DuplicateToken`
-  or `DuplicateTokenEx`.
+description: Adversaries may duplicate then impersonate another user's existing token
+  to escalate privileges and bypass access controls. For example, an adversary can
+  duplicate an existing token using `DuplicateToken` or `DuplicateTokenEx`.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1134/ (MITRE ATT&CK enterprise, technique T1134.001)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1134/ (MITRE ATT&CK enterprise,
+      technique T1134.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: stealth-t1134001-token-impersonation-theft
+assigned_id: dea:risk-stealth-t1134001-token-impersonation-theft-htvbug
+admitted: '2026-11-14'

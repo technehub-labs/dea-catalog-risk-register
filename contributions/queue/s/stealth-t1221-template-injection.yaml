@@ -1,24 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1221
 name: T1221 — Template Injection
-description: Adversaries may create or modify references in user document templates to conceal malicious
-  code or force authentication attempts. For example, Microsoft’s Office Open XML (OOXML) specification
-  defines an XML-based format for Office documents (.docx, xlsx, .pptx) to replace older binary formats
-  (.doc, .xls, .ppt).
+description: Adversaries may create or modify references in user document templates
+  to conceal malicious code or force authentication attempts. For example, Microsoft’s
+  Office Open XML (OOXML) specification defines an XML-based format for Office documents
+  (.docx, xlsx, .pptx) to replace older binary formats (.doc, .xls, .ppt).
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1221/ (MITRE ATT&CK enterprise, technique T1221)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1221/ (MITRE ATT&CK enterprise,
+      technique T1221)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: stealth-t1221-template-injection
+assigned_id: dea:risk-stealth-t1221-template-injection-6ty7df
+admitted: '2026-11-14'

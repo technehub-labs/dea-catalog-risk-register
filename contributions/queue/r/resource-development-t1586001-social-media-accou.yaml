@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1586.001
 name: T1586.001 — Social Media Accounts
-description: Adversaries may compromise social media accounts that can be used during targeting. For operations
-  incorporating social engineering, the utilization of an online persona may be important. Rather than
-  creating and cultivating social media profiles (i.e. [Social Media Accounts](https://attack.mitre.
+description: Adversaries may compromise social media accounts that can be used during
+  targeting. For operations incorporating social engineering, the utilization of an
+  online persona may be important. Rather than creating and cultivating social media
+  profiles (i.e. [Social Media Accounts](https://attack.mitre.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1586/ (MITRE ATT&CK enterprise, technique T1586.001)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1586/ (MITRE ATT&CK enterprise,
+      technique T1586.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: resource-development-t1586001-social-media-accou
+assigned_id: dea:risk-resource-development-t1586001-social-media-accou-kuamus
+admitted: '2026-11-14'

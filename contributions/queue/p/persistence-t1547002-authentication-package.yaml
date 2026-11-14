@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1547.002
 name: T1547.002 — Authentication Package
-description: Adversaries may abuse authentication packages to execute DLLs when the system boots. Windows
-  authentication package DLLs are loaded by the Local Security Authority (LSA) process at system start.
-  They provide support for multiple logon processes and multiple security protocols to the operating system.
+description: Adversaries may abuse authentication packages to execute DLLs when the
+  system boots. Windows authentication package DLLs are loaded by the Local Security
+  Authority (LSA) process at system start. They provide support for multiple logon
+  processes and multiple security protocols to the operating system.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1547/ (MITRE ATT&CK enterprise, technique T1547.002)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1547/ (MITRE ATT&CK enterprise,
+      technique T1547.002)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: persistence-t1547002-authentication-package
+assigned_id: dea:risk-persistence-t1547002-authentication-package-wxfk8d
+admitted: '2026-11-14'

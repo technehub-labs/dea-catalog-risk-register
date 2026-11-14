@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1127
 name: T1127 — Trusted Developer Utilities Proxy Execution
-description: Adversaries may take advantage of trusted developer utilities to proxy execution of malicious
-  payloads. There are many utilities used for software development related tasks that can be used to execute
-  code in various forms to assist in development, debugging, and reverse engineering.
+description: Adversaries may take advantage of trusted developer utilities to proxy
+  execution of malicious payloads. There are many utilities used for software development
+  related tasks that can be used to execute code in various forms to assist in development,
+  debugging, and reverse engineering.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1127/ (MITRE ATT&CK enterprise, technique T1127)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1127/ (MITRE ATT&CK enterprise,
+      technique T1127)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: stealth-t1127-trusted-developer-utilities-proxy
+assigned_id: dea:risk-stealth-t1127-trusted-developer-utilities-proxy-2u6h9s
+admitted: '2026-11-14'

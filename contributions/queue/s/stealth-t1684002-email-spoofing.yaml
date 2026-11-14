@@ -1,24 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1684.002
 name: T1684.002 — Email Spoofing
-description: Adversaries may fake, or spoof, a sender’s identity by modifying the value of relevant email
-  headers in order to establish contact with victims under false pretenses. In addition to actual email
-  content, email headers (such as the FROM header, which contains the email address of the sender) may
-  also be modified.
+description: Adversaries may fake, or spoof, a sender’s identity by modifying the
+  value of relevant email headers in order to establish contact with victims under
+  false pretenses. In addition to actual email content, email headers (such as the
+  FROM header, which contains the email address of the sender) may also be modified.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1684/ (MITRE ATT&CK enterprise, technique T1684.002)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1684/ (MITRE ATT&CK enterprise,
+      technique T1684.002)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: stealth-t1684002-email-spoofing
+assigned_id: dea:risk-stealth-t1684002-email-spoofing-4tt7e9
+admitted: '2026-11-14'

@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1584.005
 name: T1584.005 — Botnet
-description: Adversaries may compromise numerous third-party systems to form a botnet that can be used
-  during targeting. A botnet is a network of compromised systems that can be instructed to perform coordinated
-  tasks.
+description: Adversaries may compromise numerous third-party systems to form a botnet
+  that can be used during targeting. A botnet is a network of compromised systems
+  that can be instructed to perform coordinated tasks.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1584/ (MITRE ATT&CK enterprise, technique T1584.005)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1584/ (MITRE ATT&CK enterprise,
+      technique T1584.005)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: resource-development-t1584005-botnet
+assigned_id: dea:risk-resource-development-t1584005-botnet-rdsvu5
+admitted: '2026-11-14'

@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1070.003
 name: T1070.003 — Clear Command History
-description: In addition to clearing system logs, an adversary may clear the command history of a compromised
-  account to conceal the actions undertaken during an intrusion. Various command interpreters keep track
-  of the commands users type in their terminal so that users can retrace what they've done.
+description: In addition to clearing system logs, an adversary may clear the command
+  history of a compromised account to conceal the actions undertaken during an intrusion.
+  Various command interpreters keep track of the commands users type in their terminal
+  so that users can retrace what they've done.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1070/ (MITRE ATT&CK enterprise, technique T1070.003)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1070/ (MITRE ATT&CK enterprise,
+      technique T1070.003)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: stealth-t1070003-clear-command-history
+assigned_id: dea:risk-stealth-t1070003-clear-command-history-6swjmv
+admitted: '2026-11-14'

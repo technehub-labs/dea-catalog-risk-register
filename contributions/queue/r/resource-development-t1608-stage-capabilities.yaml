@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1608
 name: T1608 — Stage Capabilities
-description: Adversaries may upload, install, or otherwise set up capabilities that can be used during
-  targeting. To support their operations, an adversary may need to take capabilities they developed ([Develop
-  Capabilities](https://attack.mitre.org/techniques/T1587)) or obtained ([Obtain Capabilities](https://attack.mitre.
+description: Adversaries may upload, install, or otherwise set up capabilities that
+  can be used during targeting. To support their operations, an adversary may need
+  to take capabilities they developed ([Develop Capabilities](https://attack.mitre.org/techniques/T1587))
+  or obtained ([Obtain Capabilities](https://attack.mitre.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1608/ (MITRE ATT&CK enterprise, technique T1608)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1608/ (MITRE ATT&CK enterprise,
+      technique T1608)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: resource-development-t1608-stage-capabilities
+assigned_id: dea:risk-resource-development-t1608-stage-capabilities-eemyhk
+admitted: '2026-11-14'

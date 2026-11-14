@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1596
 name: T1596 — Search Open Technical Databases
-description: Adversaries may search freely available technical databases for information about victims
-  that can be used during targeting.
+description: Adversaries may search freely available technical databases for information
+  about victims that can be used during targeting.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1596/ (MITRE ATT&CK enterprise, technique T1596)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1596/ (MITRE ATT&CK enterprise,
+      technique T1596)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: reconnaissance-t1596-search-open-technical-datab
+assigned_id: dea:risk-reconnaissance-t1596-search-open-technical-datab-5rtt8t
+admitted: '2026-11-14'

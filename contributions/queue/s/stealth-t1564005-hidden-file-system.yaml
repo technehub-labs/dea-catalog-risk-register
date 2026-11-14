@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1564.005
 name: T1564.005 — Hidden File System
-description: Adversaries may use a hidden file system to conceal malicious activity from users and security
-  tools. File systems provide a structure to store and access data from physical storage.
+description: Adversaries may use a hidden file system to conceal malicious activity
+  from users and security tools. File systems provide a structure to store and access
+  data from physical storage.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1564/ (MITRE ATT&CK enterprise, technique T1564.005)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1564/ (MITRE ATT&CK enterprise,
+      technique T1564.005)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: stealth-t1564005-hidden-file-system
+assigned_id: dea:risk-stealth-t1564005-hidden-file-system-n9qf7q
+admitted: '2026-11-14'

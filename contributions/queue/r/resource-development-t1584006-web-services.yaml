@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1584.006
 name: T1584.006 — Web Services
-description: Adversaries may compromise access to third-party web services that can be used during targeting.
-  A variety of popular websites exist for legitimate users to register for web-based services, such as
-  GitHub, Twitter, Dropbox, Google, SendGrid, etc.
+description: Adversaries may compromise access to third-party web services that can
+  be used during targeting. A variety of popular websites exist for legitimate users
+  to register for web-based services, such as GitHub, Twitter, Dropbox, Google, SendGrid,
+  etc.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1584/ (MITRE ATT&CK enterprise, technique T1584.006)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1584/ (MITRE ATT&CK enterprise,
+      technique T1584.006)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: resource-development-t1584006-web-services
+assigned_id: dea:risk-resource-development-t1584006-web-services-utk8dz
+admitted: '2026-11-14'

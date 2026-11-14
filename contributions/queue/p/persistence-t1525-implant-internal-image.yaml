@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1525
 name: T1525 — Implant Internal Image
-description: Adversaries may implant cloud or container images with malicious code to establish persistence
-  after gaining access to an environment.
+description: Adversaries may implant cloud or container images with malicious code
+  to establish persistence after gaining access to an environment.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1525/ (MITRE ATT&CK enterprise, technique T1525)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1525/ (MITRE ATT&CK enterprise,
+      technique T1525)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: persistence-t1525-implant-internal-image
+assigned_id: dea:risk-persistence-t1525-implant-internal-image-xxzcdw
+admitted: '2026-11-14'

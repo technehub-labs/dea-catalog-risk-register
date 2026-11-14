@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1624.001
 name: T1624.001 — Broadcast Receivers
-description: Adversaries may establish persistence using system mechanisms that trigger execution based
-  on specific events. Mobile operating systems have means to subscribe to events such as receiving an
-  SMS message, device boot completion, or other device activities.
+description: Adversaries may establish persistence using system mechanisms that trigger
+  execution based on specific events. Mobile operating systems have means to subscribe
+  to events such as receiving an SMS message, device boot completion, or other device
+  activities.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1624/ (MITRE ATT&CK mobile, technique T1624.001)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1624/ (MITRE ATT&CK mobile, technique
+      T1624.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - mobile
 slug: persistence-t1624001-broadcast-receivers
+assigned_id: dea:risk-persistence-t1624001-broadcast-receivers-d227bx
+admitted: '2026-11-14'

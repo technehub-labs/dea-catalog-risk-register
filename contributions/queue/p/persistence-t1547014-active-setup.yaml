@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1547.014
 name: T1547.014 — Active Setup
-description: Adversaries may achieve persistence by adding a Registry key to the Active Setup of the local
-  machine. Active Setup is a Windows mechanism that is used to execute programs when a user logs in. The
-  value stored in the Registry key will be executed after a user logs into the computer.
+description: Adversaries may achieve persistence by adding a Registry key to the Active
+  Setup of the local machine. Active Setup is a Windows mechanism that is used to
+  execute programs when a user logs in. The value stored in the Registry key will
+  be executed after a user logs into the computer.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1547/ (MITRE ATT&CK enterprise, technique T1547.014)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1547/ (MITRE ATT&CK enterprise,
+      technique T1547.014)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: persistence-t1547014-active-setup
+assigned_id: dea:risk-persistence-t1547014-active-setup-2vsrz4
+admitted: '2026-11-14'

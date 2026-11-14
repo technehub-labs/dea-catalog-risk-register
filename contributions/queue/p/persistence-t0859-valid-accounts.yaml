@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T0859
 name: T0859 — Valid Accounts
-description: Adversaries may steal the credentials of a specific user or service account using credential
-  access techniques. In some cases, default credentials for control system devices may be publicly available.
+description: Adversaries may steal the credentials of a specific user or service account
+  using credential access techniques. In some cases, default credentials for control
+  system devices may be publicly available.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T0859/ (MITRE ATT&CK ics, technique T0859)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T0859/ (MITRE ATT&CK ics, technique
+      T0859)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - ics
 slug: persistence-t0859-valid-accounts
+assigned_id: dea:risk-persistence-t0859-valid-accounts-jzks7d
+admitted: '2026-11-14'
