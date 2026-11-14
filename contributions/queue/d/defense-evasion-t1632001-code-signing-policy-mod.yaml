@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1632.001
 name: T1632.001 — Code Signing Policy Modification
-description: Adversaries may modify code signing policies to enable execution of applications signed with
-  unofficial or unknown keys. Code signing provides a level of authenticity on an app from a developer,
-  guaranteeing that the program has not been tampered with and comes from an official source.
+description: Adversaries may modify code signing policies to enable execution of applications
+  signed with unofficial or unknown keys. Code signing provides a level of authenticity
+  on an app from a developer, guaranteeing that the program has not been tampered
+  with and comes from an official source.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1632/ (MITRE ATT&CK mobile, technique T1632.001)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1632/ (MITRE ATT&CK mobile, technique
+      T1632.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - mobile
 slug: defense-evasion-t1632001-code-signing-policy-mod
+assigned_id: dea:risk-defense-evasion-t1632001-code-signing-policy-mod-wvvcf7
+admitted: '2026-11-14'

@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1628.001
 name: T1628.001 — Suppress Application Icon
-description: A malicious application could suppress its icon from being displayed to the user in the application
-  launcher. This hides the fact that it is installed, and can make it more difficult for the user to uninstall
-  the application. Hiding the application's icon programmatically does not require any special permissions.
+description: A malicious application could suppress its icon from being displayed
+  to the user in the application launcher. This hides the fact that it is installed,
+  and can make it more difficult for the user to uninstall the application. Hiding
+  the application's icon programmatically does not require any special permissions.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1628/ (MITRE ATT&CK mobile, technique T1628.001)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1628/ (MITRE ATT&CK mobile, technique
+      T1628.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - mobile
 slug: defense-evasion-t1628001-suppress-application-ic
+assigned_id: dea:risk-defense-evasion-t1628001-suppress-application-ic-4mh85v
+admitted: '2026-11-14'

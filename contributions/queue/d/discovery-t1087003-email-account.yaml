@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1087.003
 name: T1087.003 — Email Account
-description: Adversaries may attempt to get a listing of email addresses and accounts. Adversaries may
-  try to dump Exchange address lists such as global address lists (GALs).
+description: Adversaries may attempt to get a listing of email addresses and accounts.
+  Adversaries may try to dump Exchange address lists such as global address lists
+  (GALs).
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1087/ (MITRE ATT&CK enterprise, technique T1087.003)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1087/ (MITRE ATT&CK enterprise,
+      technique T1087.003)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: discovery-t1087003-email-account
+assigned_id: dea:risk-discovery-t1087003-email-account-haujkn
+admitted: '2026-11-14'

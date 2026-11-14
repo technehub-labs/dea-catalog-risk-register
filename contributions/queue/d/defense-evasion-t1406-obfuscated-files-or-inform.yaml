@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1406
 name: T1406 — Obfuscated Files or Information
-description: Adversaries may attempt to make a payload or file difficult to discover or analyze by encrypting,
-  encoding, or otherwise obfuscating its contents on the device or in transit. This is common behavior
-  that can be used across different platforms and the network to evade defenses.
+description: Adversaries may attempt to make a payload or file difficult to discover
+  or analyze by encrypting, encoding, or otherwise obfuscating its contents on the
+  device or in transit. This is common behavior that can be used across different
+  platforms and the network to evade defenses.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1406/ (MITRE ATT&CK mobile, technique T1406)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1406/ (MITRE ATT&CK mobile, technique
+      T1406)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - mobile
 slug: defense-evasion-t1406-obfuscated-files-or-inform
+assigned_id: dea:risk-defense-evasion-t1406-obfuscated-files-or-inform-x92pbn
+admitted: '2026-11-14'

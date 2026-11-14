@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1458
 name: T1458 — Replication Through Removable Media
-description: Adversaries may move onto devices by exploiting or copying malware to devices connected via
-  USB.
+description: Adversaries may move onto devices by exploiting or copying malware to
+  devices connected via USB.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1458/ (MITRE ATT&CK mobile, technique T1458)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1458/ (MITRE ATT&CK mobile, technique
+      T1458)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - mobile
 slug: initial-access-t1458-replication-through-removab
+assigned_id: dea:risk-initial-access-t1458-replication-through-removab-mkydw4
+admitted: '2026-11-14'

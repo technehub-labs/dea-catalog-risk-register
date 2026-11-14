@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1474.002
 name: T1474.002 — Compromise Hardware Supply Chain
-description: Adversaries may manipulate hardware components in products prior to receipt by a final consumer
-  for the purpose of data or system compromise.
+description: Adversaries may manipulate hardware components in products prior to receipt
+  by a final consumer for the purpose of data or system compromise.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1474/ (MITRE ATT&CK mobile, technique T1474.002)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1474/ (MITRE ATT&CK mobile, technique
+      T1474.002)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - mobile
 slug: initial-access-t1474002-compromise-hardware-supp
+assigned_id: dea:risk-initial-access-t1474002-compromise-hardware-supp-98kkzm
+admitted: '2026-11-14'

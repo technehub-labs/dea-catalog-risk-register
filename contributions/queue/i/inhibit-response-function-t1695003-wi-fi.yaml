@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1695.003
 name: T1695.003 — Wi-Fi
-description: Adversaries may block access to Wi-Fi communications to prevent messages from reaching target
-  systems and devices. Wi-Fi connections allow for communications between IT and OT systems and devices.
-  Blocking Wi-Fi communications may also block command and reporting messages.
+description: Adversaries may block access to Wi-Fi communications to prevent messages
+  from reaching target systems and devices. Wi-Fi connections allow for communications
+  between IT and OT systems and devices. Blocking Wi-Fi communications may also block
+  command and reporting messages.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1695/ (MITRE ATT&CK ics, technique T1695.003)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1695/ (MITRE ATT&CK ics, technique
+      T1695.003)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - ics
 slug: inhibit-response-function-t1695003-wi-fi
+assigned_id: dea:risk-inhibit-response-function-t1695003-wi-fi-3jcrsc
+admitted: '2026-11-14'

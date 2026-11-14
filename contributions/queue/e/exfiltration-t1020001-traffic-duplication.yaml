@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1020.001
 name: T1020.001 — Traffic Duplication
-description: Adversaries may leverage traffic mirroring in order to automate data exfiltration over compromised
-  infrastructure. Traffic mirroring is a native feature for some devices, often used for network analysis.
+description: Adversaries may leverage traffic mirroring in order to automate data
+  exfiltration over compromised infrastructure. Traffic mirroring is a native feature
+  for some devices, often used for network analysis.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1020/ (MITRE ATT&CK enterprise, technique T1020.001)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1020/ (MITRE ATT&CK enterprise,
+      technique T1020.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: exfiltration-t1020001-traffic-duplication
+assigned_id: dea:risk-exfiltration-t1020001-traffic-duplication-rtd7g9
+admitted: '2026-11-14'

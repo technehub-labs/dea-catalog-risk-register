@@ -1,11 +1,11 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1638
 name: T1638 — Adversary-in-the-Middle
-description: Adversaries may attempt to position themselves between two or more networked devices to support
-  follow-on behaviors such as [Transmitted Data Manipulation](https://attack.mitre.org/techniques/T1565/002)
+description: Adversaries may attempt to position themselves between two or more networked
+  devices to support follow-on behaviors such as [Transmitted Data Manipulation](https://attack.mitre.org/techniques/T1565/002)
   or [Endpoint Denial of Service](https://attack.mitre.org/techniques/T1642). [Adversary-in-the-Middle](https://attack.
 risk_category: technology
 likelihood: possible
@@ -13,11 +13,14 @@ impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1638/ (MITRE ATT&CK mobile, technique T1638)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1638/ (MITRE ATT&CK mobile, technique
+      T1638)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - mobile
 slug: collection-t1638-adversary-in-the-middle
+assigned_id: dea:risk-collection-t1638-adversary-in-the-middle-5y543q
+admitted: '2026-11-14'

@@ -2,6 +2,10 @@
 
 ## [Unreleased]
 
+### CR-RSK-CAT-04: Risk Candidate Admission Batch 01
+
+Admitted 1400 new `Risk` CANDIDATE records through the gated intake workflow (queue gate → admission tool → catalog gates); ids content-derived and collision-checked; records land in `candidates/` subtrees at `lifecycle_status: proposed` / version 0.1.0; candidates count +1400, canonical unchanged; queue entries flipped to `admitted`.
+
 ### CR-RSK-CAT-03: Risk Candidate Corpus (MITRE ATT&CK + CISA KEV)
 
 2,716 Risk candidate submissions landed in the contribution queue (sharded, gate-CONFORMANT): 935 MITRE ATT&CK live techniques (enterprise + ICS + mobile) + 1,781 CISA KEV vulnerabilities. Published description prose, published-document evidence citations, source_refs (technique ids / CVE ids); provenance in ingestion/manifest.yaml. Likelihood/impact mappings provisional and documented. No catalog entities change; admission follows in CR-RSK-CAT-04/05.

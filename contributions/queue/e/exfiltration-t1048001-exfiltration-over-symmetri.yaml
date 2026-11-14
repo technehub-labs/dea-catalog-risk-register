@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1048.001
 name: T1048.001 — Exfiltration Over Symmetric Encrypted Non-C2 Protocol
-description: Adversaries may steal data by exfiltrating it over a symmetrically encrypted network protocol
-  other than that of the existing command and control channel. The data may also be sent to an alternate
-  network location from the main command and control server.
+description: Adversaries may steal data by exfiltrating it over a symmetrically encrypted
+  network protocol other than that of the existing command and control channel. The
+  data may also be sent to an alternate network location from the main command and
+  control server.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1048/ (MITRE ATT&CK enterprise, technique T1048.001)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1048/ (MITRE ATT&CK enterprise,
+      technique T1048.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: exfiltration-t1048001-exfiltration-over-symmetri
+assigned_id: dea:risk-exfiltration-t1048001-exfiltration-over-symmetri-ubmm8n
+admitted: '2026-11-14'

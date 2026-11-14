@@ -1,24 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T0813
 name: T0813 — Denial of Control
-description: Adversaries may cause a denial of control to temporarily prevent operators and engineers
-  from interacting with process controls. An adversary may attempt to deny process control access to cause
-  a temporary loss of communication with the control device or to prevent operator adjustment of process
-  controls.
+description: Adversaries may cause a denial of control to temporarily prevent operators
+  and engineers from interacting with process controls. An adversary may attempt to
+  deny process control access to cause a temporary loss of communication with the
+  control device or to prevent operator adjustment of process controls.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T0813/ (MITRE ATT&CK ics, technique T0813)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T0813/ (MITRE ATT&CK ics, technique
+      T0813)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - ics
 slug: impact-t0813-denial-of-control
+assigned_id: dea:risk-impact-t0813-denial-of-control-pdcktd
+admitted: '2026-11-14'

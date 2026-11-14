@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1623
 name: T1623 — Command and Scripting Interpreter
-description: Adversaries may abuse command and script interpreters to execute commands, scripts, or binaries.
-  These interfaces and languages provide ways of interacting with computer systems and are a common feature
-  across many different platforms.
+description: Adversaries may abuse command and script interpreters to execute commands,
+  scripts, or binaries. These interfaces and languages provide ways of interacting
+  with computer systems and are a common feature across many different platforms.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1623/ (MITRE ATT&CK mobile, technique T1623)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1623/ (MITRE ATT&CK mobile, technique
+      T1623)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - mobile
 slug: execution-t1623-command-and-scripting-interprete
+assigned_id: dea:risk-execution-t1623-command-and-scripting-interprete-k88kw3
+admitted: '2026-11-14'

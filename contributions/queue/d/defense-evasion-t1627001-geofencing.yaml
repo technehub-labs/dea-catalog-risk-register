@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1627.001
 name: T1627.001 — Geofencing
-description: Adversaries may use a device’s geographical location to limit certain malicious behaviors.
-  For example, malware operators may limit the distribution of a second stage payload to certain geographic
-  regions. [Geofencing](https://attack.mitre.
+description: Adversaries may use a device’s geographical location to limit certain
+  malicious behaviors. For example, malware operators may limit the distribution of
+  a second stage payload to certain geographic regions. [Geofencing](https://attack.mitre.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1627/ (MITRE ATT&CK mobile, technique T1627.001)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1627/ (MITRE ATT&CK mobile, technique
+      T1627.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - mobile
 slug: defense-evasion-t1627001-geofencing
+assigned_id: dea:risk-defense-evasion-t1627001-geofencing-hnekwe
+admitted: '2026-11-14'

@@ -1,24 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1630.003
 name: T1630.003 — Disguise Root/Jailbreak Indicators
-description: An adversary could use knowledge of the techniques used by security software to evade detection.
-  For example, some mobile security products perform compromised device detection by searching for particular
-  artifacts such as an installed "su" binary, but that check could be evaded by naming the binary something
-  else.
+description: An adversary could use knowledge of the techniques used by security software
+  to evade detection. For example, some mobile security products perform compromised
+  device detection by searching for particular artifacts such as an installed "su"
+  binary, but that check could be evaded by naming the binary something else.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1630/ (MITRE ATT&CK mobile, technique T1630.003)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1630/ (MITRE ATT&CK mobile, technique
+      T1630.003)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - mobile
 slug: defense-evasion-t1630003-disguise-root-jailbreak
+assigned_id: dea:risk-defense-evasion-t1630003-disguise-root-jailbreak-a297y6
+admitted: '2026-11-14'

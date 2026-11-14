@@ -1,0 +1,38 @@
+id: dea:risk-collection-t1533-data-from-local-system-nep26c
+type: Risk
+name: T1533 — Data from Local System
+description: Adversaries may search local system sources, such as file systems or
+  local databases, to find files of interest and sensitive data prior to exfiltration.
+  Access to local system data, which includes information stored by the operating
+  system, often requires escalated privileges.
+version: 0.1.0
+lifecycle_status: proposed
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1533/ (MITRE ATT&CK mobile, technique
+      T1533)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: proposed
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-14'
+  created_by: Emmanuel A. Otchere
+  status: proposed
+tags:
+- mitre-attack
+- mobile

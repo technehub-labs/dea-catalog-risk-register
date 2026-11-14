@@ -1,24 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T0895
 name: T0895 — Autorun Image
-description: Adversaries may leverage AutoRun functionality or scripts to execute malicious code. Devices
-  configured to enable AutoRun functionality or legacy operating systems may be susceptible to abuse of
-  these features to run malicious code stored on various forms of removeable media (i.e., USB, Disk Images
-  [.ISO]).
+description: Adversaries may leverage AutoRun functionality or scripts to execute
+  malicious code. Devices configured to enable AutoRun functionality or legacy operating
+  systems may be susceptible to abuse of these features to run malicious code stored
+  on various forms of removeable media (i.e., USB, Disk Images [.ISO]).
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T0895/ (MITRE ATT&CK ics, technique T0895)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T0895/ (MITRE ATT&CK ics, technique
+      T0895)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - ics
 slug: execution-t0895-autorun-image
+assigned_id: dea:risk-execution-t0895-autorun-image-x56kab
+admitted: '2026-11-14'

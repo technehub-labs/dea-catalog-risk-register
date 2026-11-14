@@ -1,23 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1021.002
 name: T1021.002 — SMB/Windows Admin Shares
-description: Adversaries may use [Valid Accounts](https://attack.mitre.org/techniques/T1078) to interact
-  with a remote network share using Server Message Block (SMB). The adversary may then perform actions
-  as the logged-on user.
+description: Adversaries may use [Valid Accounts](https://attack.mitre.org/techniques/T1078)
+  to interact with a remote network share using Server Message Block (SMB). The adversary
+  may then perform actions as the logged-on user.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1021/ (MITRE ATT&CK enterprise, technique T1021.002)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1021/ (MITRE ATT&CK enterprise,
+      technique T1021.002)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: lateral-movement-t1021002-smb-windows-admin-shar
+assigned_id: dea:risk-lateral-movement-t1021002-smb-windows-admin-shar-kzanfs
+admitted: '2026-11-14'

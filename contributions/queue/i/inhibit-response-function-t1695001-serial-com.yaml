@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1695.001
 name: T1695.001 — Serial COM
-description: Adversaries may block access to serial COM to prevent instructions or configurations from
-  reaching target devices. Serial Communication ports (COM) allow communication with control system devices.
-  Devices can receive command and configuration messages over such serial COM.
+description: Adversaries may block access to serial COM to prevent instructions or
+  configurations from reaching target devices. Serial Communication ports (COM) allow
+  communication with control system devices. Devices can receive command and configuration
+  messages over such serial COM.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1695/ (MITRE ATT&CK ics, technique T1695.001)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1695/ (MITRE ATT&CK ics, technique
+      T1695.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - ics
 slug: inhibit-response-function-t1695001-serial-com
+assigned_id: dea:risk-inhibit-response-function-t1695001-serial-com-tnsbay
+admitted: '2026-11-14'

@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1674
 name: T1674 — Input Injection
-description: Adversaries may simulate keystrokes on a victim’s computer by various means to perform any
-  type of action on behalf of the user, such as launching the command interpreter using keyboard shortcuts,
-  typing an inline script to be executed, or interacting directly with a GUI-based application.
+description: Adversaries may simulate keystrokes on a victim’s computer by various
+  means to perform any type of action on behalf of the user, such as launching the
+  command interpreter using keyboard shortcuts, typing an inline script to be executed,
+  or interacting directly with a GUI-based application.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1674/ (MITRE ATT&CK enterprise, technique T1674)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1674/ (MITRE ATT&CK enterprise,
+      technique T1674)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: execution-t1674-input-injection
+assigned_id: dea:risk-execution-t1674-input-injection-jv47j7
+admitted: '2026-11-14'

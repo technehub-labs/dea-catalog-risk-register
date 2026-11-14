@@ -1,22 +1,26 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1550.004
 name: T1550.004 — Web Session Cookie
-description: Adversaries can use stolen session cookies to authenticate to web applications and services.
-  This technique bypasses some multi-factor authentication protocols since the session is already authenticated.
+description: Adversaries can use stolen session cookies to authenticate to web applications
+  and services. This technique bypasses some multi-factor authentication protocols
+  since the session is already authenticated.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1550/ (MITRE ATT&CK enterprise, technique T1550.004)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1550/ (MITRE ATT&CK enterprise,
+      technique T1550.004)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: lateral-movement-t1550004-web-session-cookie
+assigned_id: dea:risk-lateral-movement-t1550004-web-session-cookie-pykxga
+admitted: '2026-11-14'

@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1568
 name: T1568 — Dynamic Resolution
-description: Adversaries may dynamically establish connections to command and control infrastructure to
-  evade common detections and remediations. This may be achieved by using malware that shares a common
-  algorithm with the infrastructure the adversary uses to receive the malware's communications.
+description: Adversaries may dynamically establish connections to command and control
+  infrastructure to evade common detections and remediations. This may be achieved
+  by using malware that shares a common algorithm with the infrastructure the adversary
+  uses to receive the malware's communications.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1568/ (MITRE ATT&CK enterprise, technique T1568)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1568/ (MITRE ATT&CK enterprise,
+      technique T1568)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: command-and-control-t1568-dynamic-resolution
+assigned_id: dea:risk-command-and-control-t1568-dynamic-resolution-2fnjxs
+admitted: '2026-11-14'

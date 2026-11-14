@@ -1,24 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1090.001
 name: T1090.001 — Internal Proxy
-description: Adversaries may use an internal proxy to direct command and control traffic between two or
-  more systems in a compromised environment. Many tools exist that enable traffic redirection through
-  proxies or port redirection, including [HTRAN](https://attack.mitre.org/software/S0040), ZXProxy, and
-  ZXPortMap.
+description: Adversaries may use an internal proxy to direct command and control traffic
+  between two or more systems in a compromised environment. Many tools exist that
+  enable traffic redirection through proxies or port redirection, including [HTRAN](https://attack.mitre.org/software/S0040),
+  ZXProxy, and ZXPortMap.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1090/ (MITRE ATT&CK enterprise, technique T1090.001)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1090/ (MITRE ATT&CK enterprise,
+      technique T1090.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: command-and-control-t1090001-internal-proxy
+assigned_id: dea:risk-command-and-control-t1090001-internal-proxy-g6vfbx
+admitted: '2026-11-14'

@@ -1,23 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T0874
 name: T0874 — Hooking
-description: Adversaries may hook into application programming interface (API) functions used by processes
-  to redirect calls for execution and privilege escalation means. Windows processes often leverage these
-  API functions to perform tasks that require reusable system resources.
+description: Adversaries may hook into application programming interface (API) functions
+  used by processes to redirect calls for execution and privilege escalation means.
+  Windows processes often leverage these API functions to perform tasks that require
+  reusable system resources.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T0874/ (MITRE ATT&CK ics, technique T0874)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T0874/ (MITRE ATT&CK ics, technique
+      T0874)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - ics
 slug: execution-t0874-hooking
+assigned_id: dea:risk-execution-t0874-hooking-b7y62r
+admitted: '2026-11-14'

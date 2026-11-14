@@ -1,24 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1673
 name: T1673 — Virtual Machine Discovery
-description: An adversary may attempt to enumerate running virtual machines (VMs) after gaining access
-  to a host or hypervisor. For example, adversaries may enumerate a list of VMs on an ESXi hypervisor
-  using a [Hypervisor CLI](https://attack.mitre.org/techniques/T1059/012) such as `esxcli` or `vim-cmd`
-  (e.g.
+description: An adversary may attempt to enumerate running virtual machines (VMs)
+  after gaining access to a host or hypervisor. For example, adversaries may enumerate
+  a list of VMs on an ESXi hypervisor using a [Hypervisor CLI](https://attack.mitre.org/techniques/T1059/012)
+  such as `esxcli` or `vim-cmd` (e.g.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1673/ (MITRE ATT&CK enterprise, technique T1673)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1673/ (MITRE ATT&CK enterprise,
+      technique T1673)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - enterprise
 slug: discovery-t1673-virtual-machine-discovery
+assigned_id: dea:risk-discovery-t1673-virtual-machine-discovery-yu73v4
+admitted: '2026-11-14'

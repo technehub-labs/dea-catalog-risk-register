@@ -1,24 +1,27 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1692.001
 name: T1692.001 — Command Message
-description: Adversaries may send unauthorized command messages to instruct control system assets to perform
-  actions outside of their intended functionality, or without the logical preconditions to trigger their
-  expected function. Command messages are used in ICS networks to give direct instructions to control
-  systems devices.
+description: Adversaries may send unauthorized command messages to instruct control
+  system assets to perform actions outside of their intended functionality, or without
+  the logical preconditions to trigger their expected function. Command messages are
+  used in ICS networks to give direct instructions to control systems devices.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1692/ (MITRE ATT&CK ics, technique T1692.001)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1692/ (MITRE ATT&CK ics, technique
+      T1692.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - ics
 slug: evasion-t1692001-command-message
+assigned_id: dea:risk-evasion-t1692001-command-message-6wzgw3
+admitted: '2026-11-14'

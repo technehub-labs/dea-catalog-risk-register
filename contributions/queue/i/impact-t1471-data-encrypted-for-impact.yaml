@@ -1,22 +1,25 @@
-status: queued
+status: admitted
 submitted_by: Emmanuel A. Otchere
 submitted: '2026-11-14'
 source_bank: attack-techniques.json
 source_ref: MITRE ATT&CK T1471
 name: T1471 — Data Encrypted for Impact
-description: An adversary may encrypt files stored on a mobile device to prevent the user from accessing
-  them.
+description: An adversary may encrypt files stored on a mobile device to prevent the
+  user from accessing them.
 risk_category: technology
 likelihood: possible
 impact: major
 evidence:
   sources:
   - kind: published-document
-    reference: https://attack.mitre.org/techniques/T1471/ (MITRE ATT&CK mobile, technique T1471)
-  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
-    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
-    likelihood and impact are canonical-admission decisions.
+    reference: https://attack.mitre.org/techniques/T1471/ (MITRE ATT&CK mobile, technique
+      T1471)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
 tags:
 - mitre-attack
 - mobile
 slug: impact-t1471-data-encrypted-for-impact
+assigned_id: dea:risk-impact-t1471-data-encrypted-for-impact-cwfhnp
+admitted: '2026-11-14'
