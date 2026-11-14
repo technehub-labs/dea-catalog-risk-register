@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1222
+name: T1222 — File and Directory Permissions Modification
+description: Adversaries may modify file or directory permissions/attributes to evade access control lists
+  (ACLs) and access protected files. File and directory permissions are commonly managed by ACLs configured
+  by the file or directory owner, or users with the appropriate permissions.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1222/ (MITRE ATT&CK enterprise, technique T1222)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: defense-impairment-t1222-file-and-directory-perm

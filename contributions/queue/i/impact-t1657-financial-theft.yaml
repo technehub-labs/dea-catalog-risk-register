@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1657
+name: T1657 — Financial Theft
+description: Adversaries may steal monetary resources from targets through extortion, social engineering,
+  technical theft, or other methods aimed at their own financial gain at the expense of the availability
+  of these resources for victims.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1657/ (MITRE ATT&CK enterprise, technique T1657)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: impact-t1657-financial-theft

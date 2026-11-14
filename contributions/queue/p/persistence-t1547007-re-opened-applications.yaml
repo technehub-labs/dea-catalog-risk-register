@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1547.007
+name: T1547.007 — Re-opened Applications
+description: Adversaries may modify plist files to automatically run an application when a user logs in.
+  When a user logs out or restarts via the macOS Graphical User Interface (GUI), a prompt is provided
+  to the user with a checkbox to "Reopen windows when logging back in".
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1547/ (MITRE ATT&CK enterprise, technique T1547.007)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: persistence-t1547007-re-opened-applications

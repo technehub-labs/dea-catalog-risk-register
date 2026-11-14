@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1584.001
+name: T1584.001 — Domains
+description: Adversaries may hijack domains and/or subdomains that can be used during targeting. Domain
+  registration hijacking is the act of changing the registration of a domain name without the permission
+  of the original registrant. Adversaries may gain access to an email account for the person listed as
+  the owner of the domain.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1584/ (MITRE ATT&CK enterprise, technique T1584.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: resource-development-t1584001-domains

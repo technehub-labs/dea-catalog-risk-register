@@ -1,0 +1,31 @@
+# Ingestion manifest — Risk candidate corpus (CR-RSK-CAT-03)
+# Provenance record for the contributions/queue intake corpus.
+# Records are candidates only (queue status: queued; admitted at
+# lifecycle_status: proposed / version 0.1.0 by the gated workflow).
+
+generated: '2026-11-14'
+generated_by: ingest-kit generate_queue.py (catalog population programme)
+submitted_by: Emmanuel A. Otchere
+record_count: 2716
+sources:
+- bank: attack-techniques.json
+  source: "MITRE ATT&CK knowledge base (mitre/cti STIX; enterprise + ICS + mobile, live attack-patterns)"
+  url: "https://github.com/mitre/cti"
+  published: "https://attack.mitre.org/"
+  retrieved: '2026-11-14'
+  sha256: 512799bd48131f872c4dcbdbde0b25d675a63460c40a975f5f3591f85480b345
+  records: 935
+- bank: cisa-kev.json
+  source: "CISA Known Exploited Vulnerabilities catalog (official JSON feed)"
+  url: "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+  published: "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+  retrieved: '2026-11-14'
+  sha256: 44d2f223a77dd9928aa060ec3c2baafb14429aacd0902a268d7b1d98c6fad2bb
+  records: 1781
+mapping_note: >-
+  risk_category/likelihood/impact values are provisional programmatic
+  mappings documented per bank and in every record's evidence.rationale;
+  per-organization likelihood/impact are canonical-admission decisions.
+  Slugs are semantic-prefix-first (ATT&CK: tactic; KEV: vendor) so the
+  letter-shard layout respects the 800-entry directory cap.
+queue_layout: contributions/queue/<shard>/<slug>.yaml (entity-storage-layout §4)

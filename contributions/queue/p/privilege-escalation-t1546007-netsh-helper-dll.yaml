@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1546.007
+name: T1546.007 — Netsh Helper DLL
+description: Adversaries may establish persistence by executing malicious content triggered by Netsh Helper
+  DLLs. Netsh.exe (also referred to as Netshell) is a command-line scripting utility used to interact
+  with the network configuration of a system.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1546/ (MITRE ATT&CK enterprise, technique T1546.007)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: privilege-escalation-t1546007-netsh-helper-dll

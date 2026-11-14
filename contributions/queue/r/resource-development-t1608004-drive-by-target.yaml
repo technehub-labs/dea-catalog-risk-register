@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1608.004
+name: T1608.004 — Drive-by Target
+description: Adversaries may prepare an operational environment to infect systems that visit a website
+  over the normal course of browsing. Endpoint systems may be compromised through browsing to adversary
+  controlled sites, as in [Drive-by Compromise](https://attack.mitre.org/techniques/T1189).
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1608/ (MITRE ATT&CK enterprise, technique T1608.004)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: resource-development-t1608004-drive-by-target

@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1564.008
+name: T1564.008 — Email Hiding Rules
+description: Adversaries may use email rules to hide inbound emails in a compromised user's mailbox. Many
+  email clients allow users to create inbox rules for various email functions, including moving emails
+  to other folders, marking emails as read, or deleting emails.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1564/ (MITRE ATT&CK enterprise, technique T1564.008)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: stealth-t1564008-email-hiding-rules

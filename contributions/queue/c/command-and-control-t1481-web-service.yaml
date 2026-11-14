@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1481
+name: T1481 — Web Service
+description: Adversaries may use an existing, legitimate external Web service as a means for relaying
+  data to/from a compromised system. Popular websites and social media, acting as a mechanism for C2,
+  may give a significant amount of cover.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1481/ (MITRE ATT&CK mobile, technique T1481)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- mobile
+slug: command-and-control-t1481-web-service

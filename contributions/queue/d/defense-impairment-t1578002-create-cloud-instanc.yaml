@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1578.002
+name: T1578.002 — Create Cloud Instance
+description: An adversary may create a new instance or virtual machine (VM) within the compute service
+  of a cloud account to evade defenses. Creating a new instance may allow an adversary to bypass firewall
+  rules and permissions that exist on instances currently residing within an account.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1578/ (MITRE ATT&CK enterprise, technique T1578.002)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: defense-impairment-t1578002-create-cloud-instanc

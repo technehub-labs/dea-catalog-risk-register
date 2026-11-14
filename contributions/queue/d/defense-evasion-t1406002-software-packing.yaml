@@ -1,0 +1,24 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1406.002
+name: T1406.002 — Software Packing
+description: Adversaries may perform software packing to conceal their code. Software packing is a method
+  of compressing or encrypting an executable. Packing an executable changes the file signature in an attempt
+  to avoid signature-based detection. Most decompression techniques decompress the executable code in
+  memory.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1406/ (MITRE ATT&CK mobile, technique T1406.002)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- mobile
+slug: defense-evasion-t1406002-software-packing

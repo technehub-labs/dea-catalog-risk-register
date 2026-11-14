@@ -1,0 +1,22 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1663
+name: T1663 — Remote Access Software
+description: Adversaries may use legitimate remote access software, such as `VNC`, `TeamViewer`, `AirDroid`,
+  `AirMirror`, etc., to establish an interactive command and control channel to target mobile devices.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1663/ (MITRE ATT&CK mobile, technique T1663)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- mobile
+slug: command-and-control-t1663-remote-access-software

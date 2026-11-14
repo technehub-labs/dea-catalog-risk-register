@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T0834
+name: T0834 — Native API
+description: Adversaries may directly interact with the native OS application programming interface (API)
+  to access system functions. Native APIs provide a controlled means of calling low-level OS services
+  within the kernel, such as those involving hardware/devices, memory, and processes.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T0834/ (MITRE ATT&CK ics, technique T0834)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- ics
+slug: execution-t0834-native-api

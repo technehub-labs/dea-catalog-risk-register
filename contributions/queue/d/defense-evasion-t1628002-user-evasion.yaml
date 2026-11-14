@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1628.002
+name: T1628.002 — User Evasion
+description: Adversaries may attempt to avoid detection by hiding malicious behavior from the user. By
+  doing this, an adversary’s modifications would most likely remain installed on the device for longer,
+  allowing the adversary to continue to operate on that device.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1628/ (MITRE ATT&CK mobile, technique T1628.002)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- mobile
+slug: defense-evasion-t1628002-user-evasion

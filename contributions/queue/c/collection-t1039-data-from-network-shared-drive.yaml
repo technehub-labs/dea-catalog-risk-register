@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1039
+name: T1039 — Data from Network Shared Drive
+description: Adversaries may search network shares on computers they have compromised to find files of
+  interest. Sensitive data can be collected from remote systems via shared network drives (host shared
+  directory, network file server, etc.) that are accessible from the current system prior to Exfiltration.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1039/ (MITRE ATT&CK enterprise, technique T1039)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: collection-t1039-data-from-network-shared-drive

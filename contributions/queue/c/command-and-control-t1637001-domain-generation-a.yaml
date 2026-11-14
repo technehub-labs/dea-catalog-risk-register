@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1637.001
+name: T1637.001 — Domain Generation Algorithms
+description: Adversaries may use [Domain Generation Algorithms](https://attack.mitre.org/techniques/T1637/001)
+  (DGAs) to procedurally generate domain names for uses such as command and control communication or malicious
+  application distribution.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1637/ (MITRE ATT&CK mobile, technique T1637.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- mobile
+slug: command-and-control-t1637001-domain-generation-a

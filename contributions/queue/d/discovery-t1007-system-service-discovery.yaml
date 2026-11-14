@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1007
+name: T1007 — System Service Discovery
+description: Adversaries may try to gather information about registered local system services. Adversaries
+  may obtain information about services using tools as well as OS utility commands such as <code>sc query</code>,
+  <code>tasklist /svc</code>, <code>systemctl --type=service</code>, and <code>net start</code>.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1007/ (MITRE ATT&CK enterprise, technique T1007)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: discovery-t1007-system-service-discovery

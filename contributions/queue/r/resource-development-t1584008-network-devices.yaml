@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1584.008
+name: T1584.008 — Network Devices
+description: Adversaries may compromise third-party network devices that can be used during targeting.
+  Network devices, such as small office/home office (SOHO) routers, may be compromised where the adversary's
+  ultimate goal is not [Initial Access](https://attack.mitre.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1584/ (MITRE ATT&CK enterprise, technique T1584.008)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- enterprise
+slug: resource-development-t1584008-network-devices

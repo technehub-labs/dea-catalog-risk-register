@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T0885
+name: T0885 — Commonly Used Port
+description: Adversaries may communicate over a commonly used port to bypass firewalls or network detection
+  systems and to blend in with normal network activity, to avoid more detailed inspection. They may use
+  the protocol associated with the port, or a completely different protocol.
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T0885/ (MITRE ATT&CK ics, technique T0885)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- ics
+slug: command-and-control-t0885-commonly-used-port

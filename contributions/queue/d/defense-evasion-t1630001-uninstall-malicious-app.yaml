@@ -1,0 +1,23 @@
+status: queued
+submitted_by: Emmanuel A. Otchere
+submitted: '2026-11-14'
+source_bank: attack-techniques.json
+source_ref: MITRE ATT&CK T1630.001
+name: T1630.001 — Uninstall Malicious Application
+description: 'Adversaries may include functionality in malware that uninstalls the malicious application
+  from the device. This can be achieved by: * Abusing device owner permissions to perform silent uninstallation
+  using device owner API calls. * Abusing root permissions to delete files from the filesystem.'
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1630/ (MITRE ATT&CK mobile, technique T1630.001)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern object).
+    risk_category/likelihood/impact are provisional programmatic values documented here; per-organization
+    likelihood and impact are canonical-admission decisions.
+tags:
+- mitre-attack
+- mobile
+slug: defense-evasion-t1630001-uninstall-malicious-app
