@@ -1,0 +1,48 @@
+id: dea:risk-execution-t1701003-unix-shell-97gw6f
+type: Risk
+name: T1701.003 — Unix Shell
+description: Adversaries may abuse Unix shell commands and scripts for execution.
+  Unix shells are the primary command prompt on Linux, macOS, and ESXi systems, though
+  many variations of the Unix shell exist (e.g. sh, ash, bash, zsh, etc.) depending
+  on the specific OS or distribution.
+version: 0.1.0
+lifecycle_status: active
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1701/ (MITRE ATT&CK ics, technique
+      T1701.003)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- mitre-attack
+- ics

@@ -1,0 +1,48 @@
+id: dea:risk-defense-evasion-t1627-execution-guardrails-nmhhw9
+type: Risk
+name: T1627 — Execution Guardrails
+description: Adversaries may use execution guardrails to constrain execution or actions
+  based on adversary supplied and environment specific conditions that are expected
+  to be present on the target. Guardrails ensure that a payload only executes against
+  an intended target and reduces collateral damage from an adversary’s campaign.
+version: 0.1.0
+lifecycle_status: active
+risk_category: technology
+likelihood: possible
+impact: major
+evidence:
+  sources:
+  - kind: published-document
+    reference: https://attack.mitre.org/techniques/T1627/ (MITRE ATT&CK mobile, technique
+      T1627)
+  rationale: Cited from the MITRE ATT&CK knowledge base (mitre/cti STIX, live attack-pattern
+    object). risk_category/likelihood/impact are provisional programmatic values documented
+    here; per-organization likelihood and impact are canonical-admission decisions.
+provenance:
+  ladder_passage:
+  - stage: candidate
+    date: '2026-11-14'
+    actor: Emmanuel A. Otchere
+  - stage: corroborated
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: reviewed
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+  - stage: canonical
+    date: '2026-11-15'
+    actor: Emmanuel A. Otchere
+governance:
+  functional_owner: Emmanuel A. Otchere
+  steward: Emmanuel A. Otchere
+  approval_status: approved
+  source_and_evidence: Candidate corpus admission; evidence sources cited per record.
+  review_date: '2026-11-15'
+metadata:
+  created_at: '2026-11-14'
+  updated_at: '2026-11-15'
+  created_by: Emmanuel A. Otchere
+  status: active
+tags:
+- mitre-attack
+- mobile
